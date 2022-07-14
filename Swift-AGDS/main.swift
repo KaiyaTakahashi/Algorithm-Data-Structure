@@ -23,4 +23,7 @@ import Foundation
 
 //permutation("pork")
 
-rollDice(2)
+//rollDice(2)
+
+solveQueens(board: &board)
+print(count)
