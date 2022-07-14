@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D92842E6287C9D6B00EA2C41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92842E5287C9D6B00EA2C41 /* main.swift */; };
+		D92842EE287C9D9C00EA2C41 /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92842ED287C9D9C00EA2C41 /* Recursion.swift */; };
+		D92842F0287CA11700EA2C41 /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92842EF287CA11700EA2C41 /* String+DPStringTool.swift */; };
+		D928430E287F2F6800EA2C41 /* ExhaustiveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D928430D287F2F6800EA2C41 /* ExhaustiveSearch.swift */; };
+		D9284310287F3EC500EA2C41 /* BackTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D928430F287F3EC500EA2C41 /* BackTracking.swift */; };
+		D9284313287F4AFF00EA2C41 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9284312287F4AFF00EA2C41 /* Board.swift */; };
+		D9284315287F4B0A00EA2C41 /* QueensSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9284314287F4B0A00EA2C41 /* QueensSolver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,13 @@
 /* Begin PBXFileReference section */
 		D92842E2287C9D6B00EA2C41 /* Swift-AGDS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-AGDS"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92842E5287C9D6B00EA2C41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D92842ED287C9D9C00EA2C41 /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
+		D92842EF287CA11700EA2C41 /* String+DPStringTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DPStringTool.swift"; sourceTree = "<group>"; };
+		D92842F1287CBEBB00EA2C41 /* story.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = story.txt; path = "Swift-AGDS/story.txt"; sourceTree = SOURCE_ROOT; };
+		D928430D287F2F6800EA2C41 /* ExhaustiveSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhaustiveSearch.swift; sourceTree = "<group>"; };
+		D928430F287F3EC500EA2C41 /* BackTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackTracking.swift; sourceTree = "<group>"; };
+		D9284312287F4AFF00EA2C41 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		D9284314287F4B0A00EA2C41 /* QueensSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueensSolver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +70,32 @@
 		D92842E4287C9D6B00EA2C41 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				D9284311287F4A1300EA2C41 /* MiniProject2 */,
+				D92842EF287CA11700EA2C41 /* String+DPStringTool.swift */,
+				D92842EC287C9D8700EA2C41 /* Recursion */,
 				D92842E5287C9D6B00EA2C41 /* main.swift */,
 			);
 			path = "Swift-AGDS";
+			sourceTree = "<group>";
+		};
+		D92842EC287C9D8700EA2C41 /* Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				D92842F1287CBEBB00EA2C41 /* story.txt */,
+				D92842ED287C9D9C00EA2C41 /* Recursion.swift */,
+				D928430D287F2F6800EA2C41 /* ExhaustiveSearch.swift */,
+				D928430F287F3EC500EA2C41 /* BackTracking.swift */,
+			);
+			path = Recursion;
+			sourceTree = "<group>";
+		};
+		D9284311287F4A1300EA2C41 /* MiniProject2 */ = {
+			isa = PBXGroup;
+			children = (
+				D9284312287F4AFF00EA2C41 /* Board.swift */,
+				D9284314287F4B0A00EA2C41 /* QueensSolver.swift */,
+			);
+			path = MiniProject2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D92842F0287CA11700EA2C41 /* String+DPStringTool.swift in Sources */,
+				D928430E287F2F6800EA2C41 /* ExhaustiveSearch.swift in Sources */,
+				D9284315287F4B0A00EA2C41 /* QueensSolver.swift in Sources */,
+				D9284313287F4AFF00EA2C41 /* Board.swift in Sources */,
+				D92842EE287C9D9C00EA2C41 /* Recursion.swift in Sources */,
+				D9284310287F3EC500EA2C41 /* BackTracking.swift in Sources */,
 				D92842E6287C9D6B00EA2C41 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
