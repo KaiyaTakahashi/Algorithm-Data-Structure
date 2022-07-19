@@ -14,6 +14,7 @@
 		D9284310287F3EC500EA2C41 /* BackTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D928430F287F3EC500EA2C41 /* BackTracking.swift */; };
 		D9284313287F4AFF00EA2C41 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9284312287F4AFF00EA2C41 /* Board.swift */; };
 		D9284315287F4B0A00EA2C41 /* QueensSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9284314287F4B0A00EA2C41 /* QueensSolver.swift */; };
+		D951607F2885F9190028A834 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D951607E2885F9190028A834 /* QuickSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,7 @@
 		D928430F287F3EC500EA2C41 /* BackTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackTracking.swift; sourceTree = "<group>"; };
 		D9284312287F4AFF00EA2C41 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		D9284314287F4B0A00EA2C41 /* QueensSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueensSolver.swift; sourceTree = "<group>"; };
+		D951607E2885F9190028A834 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		D92842E4287C9D6B00EA2C41 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				D951607B2885BD510028A834 /* SearchingSorting */,
 				D9284311287F4A1300EA2C41 /* MiniProject2 */,
 				D92842EF287CA11700EA2C41 /* String+DPStringTool.swift */,
 				D92842EC287C9D8700EA2C41 /* Recursion */,
@@ -96,6 +99,14 @@
 				D9284314287F4B0A00EA2C41 /* QueensSolver.swift */,
 			);
 			path = MiniProject2;
+			sourceTree = "<group>";
+		};
+		D951607B2885BD510028A834 /* SearchingSorting */ = {
+			isa = PBXGroup;
+			children = (
+				D951607E2885F9190028A834 /* QuickSort.swift */,
+			);
+			path = SearchingSorting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 				D92842EE287C9D9C00EA2C41 /* Recursion.swift in Sources */,
 				D9284310287F3EC500EA2C41 /* BackTracking.swift in Sources */,
 				D92842E6287C9D6B00EA2C41 /* main.swift in Sources */,
+				D951607F2885F9190028A834 /* QuickSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
