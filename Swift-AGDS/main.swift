@@ -121,16 +121,3 @@ import Foundation
 //    }
 //}
 //
-var queue = Queue<Int>()
-queue.enqueue(item: 1)
-queue.enqueue(item: 2)
-queue.enqueue(item: 3)
-
-
-print(queue.dequeue())
-print(queue.dequeue())
-queue.enqueue(item: 5)
-
-for i in queue {
-    print(i)
-}

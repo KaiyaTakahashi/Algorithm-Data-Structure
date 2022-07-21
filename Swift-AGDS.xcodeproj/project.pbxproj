@@ -78,6 +78,7 @@
 		D92842E4287C9D6B00EA2C41 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				D93B374F288861DD0087FF32 /* DataStructures1 */,
 				D951607B2885BD510028A834 /* SearchingSorting */,
 				D9284311287F4A1300EA2C41 /* MiniProject2 */,
 				D92842EF287CA11700EA2C41 /* String+DPStringTool.swift */,
@@ -120,7 +121,6 @@
 		D951607B2885BD510028A834 /* SearchingSorting */ = {
 			isa = PBXGroup;
 			children = (
-				D93B374F288861DD0087FF32 /* DataStructures1 */,
 				D951607E2885F9190028A834 /* QuickSort.swift */,
 			);
 			path = SearchingSorting;
