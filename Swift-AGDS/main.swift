@@ -121,8 +121,16 @@ import Foundation
 //    }
 //}
 //
-//let s = Solution()
-//print(s.subsetXORSum([5, 1, 6]))
-var arr = [0, 3, 1, 8, 6, 2, 5]
-quickSort(&arr, 0, arr.count - 1)
-print(arr)
+var queue = Queue<Int>()
+queue.enqueue(item: 1)
+queue.enqueue(item: 2)
+queue.enqueue(item: 3)
+
+
+print(queue.dequeue())
+print(queue.dequeue())
+queue.enqueue(item: 5)
+
+for i in queue {
+    print(i)
+}
