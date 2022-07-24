@@ -121,3 +121,5 @@ import Foundation
 //    }
 //}
 //
+
+print(kmp(str: "abcacabcd", pattern: "ac"))

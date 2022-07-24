@@ -17,6 +17,7 @@
 		D93B3751288862060087FF32 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B3750288862060087FF32 /* Bag.swift */; };
 		D93B375328888D050087FF32 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B375228888D050087FF32 /* Stack.swift */; };
 		D93B375528888D0D0087FF32 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B375428888D0D0087FF32 /* Queue.swift */; };
+		D93B37592888D7E40087FF32 /* KMPAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B37582888D7E40087FF32 /* KMPAlgorithm.swift */; };
 		D951607F2885F9190028A834 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D951607E2885F9190028A834 /* QuickSort.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		D93B3750288862060087FF32 /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
 		D93B375228888D050087FF32 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		D93B375428888D0D0087FF32 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		D93B37582888D7E40087FF32 /* KMPAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMPAlgorithm.swift; sourceTree = "<group>"; };
 		D951607E2885F9190028A834 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 		D92842E4287C9D6B00EA2C41 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				D93B37572888D7D20087FF32 /* KMPAlgorithm */,
 				D93B374F288861DD0087FF32 /* DataStructures1 */,
 				D951607B2885BD510028A834 /* SearchingSorting */,
 				D9284311287F4A1300EA2C41 /* MiniProject2 */,
@@ -116,6 +119,14 @@
 				D93B375428888D0D0087FF32 /* Queue.swift */,
 			);
 			path = DataStructures1;
+			sourceTree = "<group>";
+		};
+		D93B37572888D7D20087FF32 /* KMPAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				D93B37582888D7E40087FF32 /* KMPAlgorithm.swift */,
+			);
+			path = KMPAlgorithm;
 			sourceTree = "<group>";
 		};
 		D951607B2885BD510028A834 /* SearchingSorting */ = {
@@ -192,6 +203,7 @@
 				D92842EE287C9D9C00EA2C41 /* Recursion.swift in Sources */,
 				D9284310287F3EC500EA2C41 /* BackTracking.swift in Sources */,
 				D93B375328888D050087FF32 /* Stack.swift in Sources */,
+				D93B37592888D7E40087FF32 /* KMPAlgorithm.swift in Sources */,
 				D92842E6287C9D6B00EA2C41 /* main.swift in Sources */,
 				D93B3751288862060087FF32 /* Bag.swift in Sources */,
 				D951607F2885F9190028A834 /* QuickSort.swift in Sources */,
