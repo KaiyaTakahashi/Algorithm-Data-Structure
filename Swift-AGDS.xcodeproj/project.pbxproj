@@ -18,6 +18,11 @@
 		D93B375328888D050087FF32 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B375228888D050087FF32 /* Stack.swift */; };
 		D93B375528888D0D0087FF32 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B375428888D0D0087FF32 /* Queue.swift */; };
 		D93B37592888D7E40087FF32 /* KMPAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B37582888D7E40087FF32 /* KMPAlgorithm.swift */; };
+		D9451E91289053CF00538EF4 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9451E90289053CF00538EF4 /* DFS.swift */; };
+		D9451E9328905F2600538EF4 /* ConnectedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9451E9228905F2600538EF4 /* ConnectedComponents.swift */; };
+		D9451E972890BE3300538EF4 /* IsBipartite.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9451E962890BE3300538EF4 /* IsBipartite.swift */; };
+		D9451E9928920E2400538EF4 /* CirclePermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9451E9828920E2400538EF4 /* CirclePermutation.swift */; };
+		D9451E9B2892263000538EF4 /* RepeatingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9451E9A2892263000538EF4 /* RepeatingSequence.swift */; };
 		D951607F2885F9190028A834 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D951607E2885F9190028A834 /* QuickSort.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +52,11 @@
 		D93B375228888D050087FF32 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		D93B375428888D0D0087FF32 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		D93B37582888D7E40087FF32 /* KMPAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMPAlgorithm.swift; sourceTree = "<group>"; };
+		D9451E90289053CF00538EF4 /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
+		D9451E9228905F2600538EF4 /* ConnectedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedComponents.swift; sourceTree = "<group>"; };
+		D9451E962890BE3300538EF4 /* IsBipartite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsBipartite.swift; sourceTree = "<group>"; };
+		D9451E9828920E2400538EF4 /* CirclePermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePermutation.swift; sourceTree = "<group>"; };
+		D9451E9A2892263000538EF4 /* RepeatingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingSequence.swift; sourceTree = "<group>"; };
 		D951607E2885F9190028A834 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +90,9 @@
 		D92842E4287C9D6B00EA2C41 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				D99080AE28945B4E0074F7C5 /* Graph */,
+				D9451E90289053CF00538EF4 /* DFS.swift */,
+				D9451E9228905F2600538EF4 /* ConnectedComponents.swift */,
 				D93B37572888D7D20087FF32 /* KMPAlgorithm */,
 				D93B374F288861DD0087FF32 /* DataStructures1 */,
 				D951607B2885BD510028A834 /* SearchingSorting */,
@@ -87,6 +100,7 @@
 				D92842EF287CA11700EA2C41 /* String+DPStringTool.swift */,
 				D92842EC287C9D8700EA2C41 /* Recursion */,
 				D92842E5287C9D6B00EA2C41 /* main.swift */,
+				D9451E962890BE3300538EF4 /* IsBipartite.swift */,
 			);
 			path = "Swift-AGDS";
 			sourceTree = "<group>";
@@ -135,6 +149,15 @@
 				D951607E2885F9190028A834 /* QuickSort.swift */,
 			);
 			path = SearchingSorting;
+			sourceTree = "<group>";
+		};
+		D99080AE28945B4E0074F7C5 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				D9451E9A2892263000538EF4 /* RepeatingSequence.swift */,
+				D9451E9828920E2400538EF4 /* CirclePermutation.swift */,
+			);
+			path = Graph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,15 +218,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9451E9B2892263000538EF4 /* RepeatingSequence.swift in Sources */,
+				D9451E91289053CF00538EF4 /* DFS.swift in Sources */,
+				D9451E9328905F2600538EF4 /* ConnectedComponents.swift in Sources */,
 				D92842F0287CA11700EA2C41 /* String+DPStringTool.swift in Sources */,
 				D928430E287F2F6800EA2C41 /* ExhaustiveSearch.swift in Sources */,
 				D9284315287F4B0A00EA2C41 /* QueensSolver.swift in Sources */,
 				D93B375528888D0D0087FF32 /* Queue.swift in Sources */,
 				D9284313287F4AFF00EA2C41 /* Board.swift in Sources */,
 				D92842EE287C9D9C00EA2C41 /* Recursion.swift in Sources */,
+				D9451E972890BE3300538EF4 /* IsBipartite.swift in Sources */,
 				D9284310287F3EC500EA2C41 /* BackTracking.swift in Sources */,
 				D93B375328888D050087FF32 /* Stack.swift in Sources */,
 				D93B37592888D7E40087FF32 /* KMPAlgorithm.swift in Sources */,
+				D9451E9928920E2400538EF4 /* CirclePermutation.swift in Sources */,
 				D92842E6287C9D6B00EA2C41 /* main.swift in Sources */,
 				D93B3751288862060087FF32 /* Bag.swift in Sources */,
 				D951607F2885F9190028A834 /* QuickSort.swift in Sources */,
