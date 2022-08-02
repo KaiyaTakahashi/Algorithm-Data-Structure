@@ -36,37 +36,34 @@ import Foundation
 //6 1
 //6 5
 
-print(myParent())
+let graph: [String: [String]] = [
+    "f": ["g", "i"],
+    "g": ["h"],
+    "h": [],
+    "i": ["g", "k"],
+    "j": ["i"],
+    "k": []
+]
 
-//12
-//1 2
-//1 3
-//2 4
-//3 5
-//3 6
-//4 7
-//4 8
-//5 9
-//5 10
-//6 10
-//6 11
-//6 12
+func isReachable(graph: [String: [String]], target: String) -> Bool {
+    var stack = Stack<String>()
+    stack.push(item: "f")
+    
+    while stack.count != 0 {
+        let next = stack.pop()!
+        if next == target {
+            return true
+        }
+        if !graph[next]!.isEmpty {
+            for i in graph[next]! {
+                stack.push(item: i)
+            }
+        }
+    }
+    return false
+}
 
-//7
-//1 6
-//6 3
-//3 5
-//4 1
-//2 4
-//4 7
-//
-//4
-//6
-//1
-//3
-//1
-//4
-
+diameter()
 //
 //Diameter - (40 %)
 //
@@ -97,13 +94,16 @@ print(myParent())
 
 
 
-
-
-
-
-
-
-
+//Sample Input1
+//5
+//1 3 2 -1
+//2 -1
+//3 1 2 4 3 -1
+//4 3 3 5 6 -1
+//5 4 6 -1
+//
+//Sample Output1
+//11
 
 //Sample Input2
 //8
@@ -118,3 +118,23 @@ print(myParent())
 //
 //Sample Output2
 //20
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//<< Bonus Question - 5 % >>
+//Write a simple script to test your code.
+//Testing your code test case by test case is a boring and time consuming job.
+//You will be given a set of test files for both questions.
+//Check your slack for the test cases
+//*.in for input and *.out for output
+//You can use any language to complete the task.
+//Googling/stack overflowing allowed.

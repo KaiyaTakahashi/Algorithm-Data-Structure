@@ -35,11 +35,13 @@ public final class Queue<E>: Sequence {
             }
             iterateNode?.next = newNode
         }
+        count += 1
     }
     
     public func dequeue() -> E? {
         let firstNode = first
         first = first?.next
+        count -= 1
         return firstNode?.item
     }
     
