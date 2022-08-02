@@ -63,7 +63,7 @@ func isReachable(graph: [String: [String]], target: String) -> Bool {
     return false
 }
 
-diameter()
+//diameter()
 //
 //Diameter - (40 %)
 //

@@ -24,6 +24,9 @@
 		D9451E9928920E2400538EF4 /* CirclePermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9451E9828920E2400538EF4 /* CirclePermutation.swift */; };
 		D9451E9B2892263000538EF4 /* RepeatingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9451E9A2892263000538EF4 /* RepeatingSequence.swift */; };
 		D951607F2885F9190028A834 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D951607E2885F9190028A834 /* QuickSort.swift */; };
+		D97201F62899913600F4CB23 /* FindTheTownJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97201F52899913600F4CB23 /* FindTheTownJudge.swift */; };
+		D97201F82899914F00F4CB23 /* NumberOfProvinces.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97201F72899914F00F4CB23 /* NumberOfProvinces.swift */; };
+		D97201FA2899916D00F4CB23 /* FindCenterOfStarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97201F92899916D00F4CB23 /* FindCenterOfStarGraph.swift */; };
 		D99080B028945E8C0074F7C5 /* myParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99080AF28945E8C0074F7C5 /* myParent.swift */; };
 		D99080B22896EB290074F7C5 /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99080B12896EB290074F7C5 /* Diameter.swift */; };
 /* End PBXBuildFile section */
@@ -60,6 +63,9 @@
 		D9451E9828920E2400538EF4 /* CirclePermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePermutation.swift; sourceTree = "<group>"; };
 		D9451E9A2892263000538EF4 /* RepeatingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingSequence.swift; sourceTree = "<group>"; };
 		D951607E2885F9190028A834 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		D97201F52899913600F4CB23 /* FindTheTownJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheTownJudge.swift; sourceTree = "<group>"; };
+		D97201F72899914F00F4CB23 /* NumberOfProvinces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfProvinces.swift; sourceTree = "<group>"; };
+		D97201F92899916D00F4CB23 /* FindCenterOfStarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCenterOfStarGraph.swift; sourceTree = "<group>"; };
 		D99080AF28945E8C0074F7C5 /* myParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myParent.swift; sourceTree = "<group>"; };
 		D99080B12896EB290074F7C5 /* Diameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diameter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,6 +168,9 @@
 				D9451E9828920E2400538EF4 /* CirclePermutation.swift */,
 				D99080AF28945E8C0074F7C5 /* myParent.swift */,
 				D99080B12896EB290074F7C5 /* Diameter.swift */,
+				D97201F52899913600F4CB23 /* FindTheTownJudge.swift */,
+				D97201F72899914F00F4CB23 /* NumberOfProvinces.swift */,
+				D97201F92899916D00F4CB23 /* FindCenterOfStarGraph.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -228,6 +237,7 @@
 				D99080B028945E8C0074F7C5 /* myParent.swift in Sources */,
 				D9451E91289053CF00538EF4 /* DFS.swift in Sources */,
 				D9451E9328905F2600538EF4 /* ConnectedComponents.swift in Sources */,
+				D97201F82899914F00F4CB23 /* NumberOfProvinces.swift in Sources */,
 				D92842F0287CA11700EA2C41 /* String+DPStringTool.swift in Sources */,
 				D99080B22896EB290074F7C5 /* Diameter.swift in Sources */,
 				D928430E287F2F6800EA2C41 /* ExhaustiveSearch.swift in Sources */,
@@ -238,11 +248,13 @@
 				D9451E972890BE3300538EF4 /* IsBipartite.swift in Sources */,
 				D9284310287F3EC500EA2C41 /* BackTracking.swift in Sources */,
 				D93B375328888D050087FF32 /* Stack.swift in Sources */,
+				D97201F62899913600F4CB23 /* FindTheTownJudge.swift in Sources */,
 				D93B37592888D7E40087FF32 /* KMPAlgorithm.swift in Sources */,
 				D9451E9928920E2400538EF4 /* CirclePermutation.swift in Sources */,
 				D92842E6287C9D6B00EA2C41 /* main.swift in Sources */,
 				D93B3751288862060087FF32 /* Bag.swift in Sources */,
 				D951607F2885F9190028A834 /* QuickSort.swift in Sources */,
+				D97201FA2899916D00F4CB23 /* FindCenterOfStarGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
