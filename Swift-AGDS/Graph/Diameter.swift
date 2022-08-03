@@ -32,13 +32,11 @@ func diameter() {
 var longestTree = [Int]()
 var distance = 0
 func diameter(tree: [Int], adjList: [[Int]], next: Int, sum: Int) {
-    print(tree)
     if adjList[next - 1].count == 3 && tree.count != 1 {
         if sum > distance {
             distance = sum
             longestTree = tree
         }
-        print(distance)
         return
     } else {
         var edgeIndex = 1
@@ -58,13 +56,3 @@ extension Array {
         return result
     }
 }
-
-//Sample Input1
-//5
-//1 3 2 -1
-//2 4 4 -1
-//3 1 2 4 3 -1
-//4 2 4 3 3 5 6 -1
-//5 4 6 -1
-//Sample Output1
-//11
