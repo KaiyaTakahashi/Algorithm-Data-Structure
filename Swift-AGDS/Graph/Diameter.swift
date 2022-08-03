@@ -21,38 +21,30 @@ func diameter() {
         }
     }
     print(adjacencyList)
-    var tree = [Int]()
+    let tree = [Int]()
     for i in 1...nodeSum {
-        diameter(sum: 0, tree: tree, next: i, adjList: adjacencyList)
-        recursiveCount += 1
+        diameter(tree: tree.appendToNewArray(newElement: i), adjList: adjacencyList, next: i, sum: 0)
     }
+    print(longestTree)
+    print(distance)
 }
-var distance = 0
+
 var longestTree = [Int]()
-var recursiveCount = 1
-func diameter(sum: Int, tree: [Int], next: Int, adjList: [[Int]]) {
-    print(sum)
-    if tree.contains(next) {
+var distance = 0
+func diameter(tree: [Int], adjList: [[Int]], next: Int, sum: Int) {
+    print(tree)
+    if adjList[next - 1].count == 3 && tree.count != 1 {
         if sum > distance {
             distance = sum
             longestTree = tree
         }
+        print(distance)
         return
     } else {
         var edgeIndex = 1
         while edgeIndex != adjList[next - 1].count {
-            if adjList[next - 1].count == 3 && next != recursiveCount {
-                var newTree = tree
-                newTree.append(next)
-                if distance < sum {
-                    distance = sum
-                    longestTree = newTree
-                }
-                print(newTree)
-                return
-            } else {
-                print(sum + adjList[next - 1][edgeIndex + 1])
-                diameter(sum: sum + adjList[next - 1][edgeIndex + 1], tree: tree.appendToNewArray(newElement: next), next: adjList[next - 1][edgeIndex] , adjList: adjList)
+            if tree.count < 2 || tree[tree.count - 2] != adjList[next - 1][edgeIndex] {
+                diameter(tree: tree.appendToNewArray(newElement: adjList[next - 1][edgeIndex]), adjList: adjList, next: adjList[next - 1][edgeIndex], sum: sum + adjList[next - 1][edgeIndex + 1])
             }
             edgeIndex += 2
         }
