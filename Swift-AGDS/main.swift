@@ -7,7 +7,9 @@
 
 import Foundation
 
-diameter()
+
+print(myParent())
+//diameter()
 //
 //Diameter - (40 %)
 //
@@ -49,23 +51,3 @@ diameter()
 //
 //Sample Output2
 //20
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//<< Bonus Question - 5 % >>
-//Write a simple script to test your code.
-//Testing your code test case by test case is a boring and time consuming job.
-//You will be given a set of test files for both questions.
-//Check your slack for the test cases
-//*.in for input and *.out for output
-//You can use any language to complete the task.
-//Googling/stack overflowing allowed.

@@ -20,7 +20,7 @@ func diameter() {
             index += 1
         }
     }
-    print(adjacencyList)
+
     let tree = [Int]()
     for i in 1...nodeSum {
         diameter(tree: tree.appendToNewArray(newElement: i), adjList: adjacencyList, next: i, sum: 0)
