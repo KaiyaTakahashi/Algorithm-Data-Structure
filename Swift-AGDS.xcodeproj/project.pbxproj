@@ -27,6 +27,8 @@
 		D97201F62899913600F4CB23 /* FindTheTownJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97201F52899913600F4CB23 /* FindTheTownJudge.swift */; };
 		D97201F82899914F00F4CB23 /* NumberOfProvinces.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97201F72899914F00F4CB23 /* NumberOfProvinces.swift */; };
 		D97201FA2899916D00F4CB23 /* FindCenterOfStarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97201F92899916D00F4CB23 /* FindCenterOfStarGraph.swift */; };
+		D9720200289C370B00F4CB23 /* LowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97201FF289C370B00F4CB23 /* LowestCommonAncestor.swift */; };
+		D9720202289C506500F4CB23 /* SushiRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9720201289C506500F4CB23 /* SushiRestaurant.swift */; };
 		D99080B028945E8C0074F7C5 /* myParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99080AF28945E8C0074F7C5 /* myParent.swift */; };
 		D99080B22896EB290074F7C5 /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99080B12896EB290074F7C5 /* Diameter.swift */; };
 /* End PBXBuildFile section */
@@ -66,6 +68,8 @@
 		D97201F52899913600F4CB23 /* FindTheTownJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheTownJudge.swift; sourceTree = "<group>"; };
 		D97201F72899914F00F4CB23 /* NumberOfProvinces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfProvinces.swift; sourceTree = "<group>"; };
 		D97201F92899916D00F4CB23 /* FindCenterOfStarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCenterOfStarGraph.swift; sourceTree = "<group>"; };
+		D97201FF289C370B00F4CB23 /* LowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestor.swift; sourceTree = "<group>"; };
+		D9720201289C506500F4CB23 /* SushiRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiRestaurant.swift; sourceTree = "<group>"; };
 		D99080AF28945E8C0074F7C5 /* myParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myParent.swift; sourceTree = "<group>"; };
 		D99080B12896EB290074F7C5 /* Diameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diameter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,6 +175,8 @@
 				D97201F52899913600F4CB23 /* FindTheTownJudge.swift */,
 				D97201F72899914F00F4CB23 /* NumberOfProvinces.swift */,
 				D97201F92899916D00F4CB23 /* FindCenterOfStarGraph.swift */,
+				D97201FF289C370B00F4CB23 /* LowestCommonAncestor.swift */,
+				D9720201289C506500F4CB23 /* SushiRestaurant.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -238,11 +244,13 @@
 				D9451E91289053CF00538EF4 /* DFS.swift in Sources */,
 				D9451E9328905F2600538EF4 /* ConnectedComponents.swift in Sources */,
 				D97201F82899914F00F4CB23 /* NumberOfProvinces.swift in Sources */,
+				D9720202289C506500F4CB23 /* SushiRestaurant.swift in Sources */,
 				D92842F0287CA11700EA2C41 /* String+DPStringTool.swift in Sources */,
 				D99080B22896EB290074F7C5 /* Diameter.swift in Sources */,
 				D928430E287F2F6800EA2C41 /* ExhaustiveSearch.swift in Sources */,
 				D9284315287F4B0A00EA2C41 /* QueensSolver.swift in Sources */,
 				D93B375528888D0D0087FF32 /* Queue.swift in Sources */,
+				D9720200289C370B00F4CB23 /* LowestCommonAncestor.swift in Sources */,
 				D9284313287F4AFF00EA2C41 /* Board.swift in Sources */,
 				D92842EE287C9D9C00EA2C41 /* Recursion.swift in Sources */,
 				D9451E972890BE3300538EF4 /* IsBipartite.swift in Sources */,
