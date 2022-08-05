@@ -36,15 +36,3 @@ func findJudge(_ n: Int, _ trust: [[Int]]) -> Int {
         return -1
     }
 }
-
-//Input: n = 2, trust = [[1,2]]
-//Output: 2
-
-//Input: n = 3, trust = [[1,3],[2,3]]
-//Output: 3
-
-//Input: n = 3, trust = [[1,3],[2,3],[3,1]]
-//Output: -1
-
-//4, [[1,3],[1,4],[2,3],[2,4],[4,3]]
-//3

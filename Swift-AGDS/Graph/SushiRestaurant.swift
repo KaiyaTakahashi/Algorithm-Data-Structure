@@ -31,92 +31,60 @@ func sushiRestaurant() {
     }
     
     real = real.sorted { $0 > $1 }
-    
-//    var lca: Int = -1
-//    var tempI = -1
-//    for i in 1..<real.count - 1 {
-//        let result = lca2(x: real[0], y: i, adjList: adjList!)
-//        tempI = result > lca ? i: tempI
-//        lca = result > lca ? result: lca
-//    }
-//    let edge = real.remove(at: real.firstIndex(of: real[0])!)
-//    real.remove(at: real.firstIndex(of: real[tempI])!)
-    sushiRestaurant(start: 6, dest: 3, next: 6, prev: -1, lca: 0, count: 0)
+
+    while real.count > 1 {
+        var lca: Int = -1
+        var tempI = -1
+        var comparedEdge = -1
+        for i in 1..<real.count {
+            let result = lca2(x: real[0], y: real[i], adjList: adjList!)
+            if result > lca {
+                comparedEdge = real[i]
+                tempI = i
+            }
+            lca = result > lca ? result: lca
+        }
+        let edge = real.remove(at: real.firstIndex(of: real[0])!)
+        real.remove(at: real.firstIndex(of: real[tempI - 1])!)
+        sushiRestaurant(dest: edge, next: lca, prev: -1, count: 0)
+        var distanceA = partialPath
+        sushiRestaurant(dest: comparedEdge, next: lca, prev: -1, count: 0)
+        var distanceB = partialPath
+        if distanceA > distanceB && lca != 0 {
+            distanceA *= 2
+            totalPath += distanceB
+            totalPath += distanceA
+        } else if distanceB > distanceA && lca != 0 {
+            distanceB *= 2
+            totalPath += distanceB
+            totalPath += distanceA
+        } else if distanceA == distanceB && lca != 0 {
+            distanceB *= 2
+            totalPath += distanceB
+            totalPath += distanceA
+        } else {
+            totalPath += distanceB
+            totalPath += distanceA
+        }
+    }
     print(totalPath)
 }
 
 var totalPath = 0
-func sushiRestaurant(start: Int, dest: Int, next: Int, prev: Int, lca: Int, count: Int) {
-    print("\(next) ->")
+var partialPath = 0
+func sushiRestaurant(dest: Int, next: Int, prev: Int, count: Int) {
     if next == dest {
-        totalPath = count + 1
+        partialPath = count
         return
-    } else if adjList![next].count == 1 && next != start {
+    } else if adjList![next].count == 1 {
         return
     } else {
         var edgeIndex = 0
         while edgeIndex != adjList![next].count {
-            if next == lca {
-                if adjList![next][edgeIndex] != prev && adjList![next][edgeIndex] > next {
-                    sushiRestaurant(start: start, dest: dest, next: adjList![next][edgeIndex], prev: next, lca: lca, count: count + 1)
-                }
-            } else if adjList![next][edgeIndex] != prev {
-                sushiRestaurant(start: start, dest: dest, next: adjList![next][edgeIndex], prev: next, lca: lca, count: count + 1)
+            if adjList![next][edgeIndex] > next && adjList![next][edgeIndex] > prev {
+                sushiRestaurant(dest: dest, next: adjList![next][edgeIndex], prev: next, count: count + 1)
             }
             edgeIndex += 1
         }
     }
 }
-
-//var visited = Set<Int>()
-//var totalSteps = 0
-//func sushiRestaurant(count: Int, next: Int, prev: Int, steps: Int) {
-//    if count == real.count {
-//        return
-//    } else {
-//        visited.insert(next)
-//        var edgeIndex = 0
-//        while edgeIndex != adjList![next].count {
-//            if !visited.contains(adjList![next][edgeIndex]) {
-//                if real.contains(adjList![next][edgeIndex]) {
-//                    totalSteps += steps
-//                    sushiRestaurant(count: count + 1, next: adjList![next][edgeIndex], prev: next, steps: steps)
-//                } else {
-//                    sushiRestaurant(count: count, next: adjList![next][edgeIndex], prev: next, steps: steps + 1)
-//                }
-//            }
-//            edgeIndex += 1
-//        }
-//        return
-//    }
-//}
-//Sample Input 1
-//8 2
-//5 2
-//0 1
-//0 2
-//2 3
-//4 3
-//6 1
-//1 5
-//7 3
-//
-//Sample Output 1
-//3
-//
-//Explanation for output1
-//The path between 5 and 2 goes through 5 -> 1 -> 0 -> 2, which uses 3 roads.
-//
-//Sample Input 2
-//8 5
-//0 6 4 3 7
-//0 1
-//0 2
-//2 3
-//4 3
-//6 1
-//1 5
-//7 3
-//
-//Sample Output 2
-//7
