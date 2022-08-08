@@ -7,6 +7,53 @@
 
 import Foundation
 
+func sushiRestaurant2() {
+    let firstLine = readLine()!.split(separator: " ")
+    let nodeSum = Int(String(firstLine[0]))!
+    total = Int(String(firstLine[1]))!
+    
+    let nextLine = readLine()!.split(separator: " ")
+    for i in 0..<nextLine.count {
+        real.append(Int(String(nextLine[i]))!)
+    }
+    
+    adjList = [[Int]](repeating: [], count: nodeSum)
+    for i in 0..<nodeSum - 1 {
+        let edge = readLine()!.split(separator: " ")
+        let l = Int(String(edge[0]))!
+        let r = Int(String(edge[1]))!
+        adjList![l].append(r)
+        adjList![r].append(l)
+    }
+    print(adjList)
+    removeFakeLeaf(next: 0, prev: 0)
+    print(adjList)
+}
+
+func removeFakeLeaf(next: Int, prev: Int) {
+    if adjList![next].count == 1 && next != 0 {
+        if real.contains(next) {
+            return
+        }
+        let connected = adjList![next].remove(at: 0)
+        adjList![next] = []
+        return
+    } else {
+        print(adjList![next])
+        var edgeIndex = 0
+        while edgeIndex != adjList![next].count {
+            if adjList![next][edgeIndex] != prev {
+                removeFakeLeaf(next: adjList![next][edgeIndex], prev: next)
+            }
+            edgeIndex += 1
+        }
+    }
+}
+
+func sushiRestaurant2(next: Int) {
+    
+}
+
 var total = 0
 var real = [Int]()
 var adjList: [[Int]]?
@@ -88,3 +135,13 @@ func sushiRestaurant(dest: Int, next: Int, prev: Int, count: Int) {
         }
     }
 }
+
+//8 5
+//0 6 4 3 7
+//0 1
+//0 2
+//2 3
+//4 3
+//6 1
+//1 5
+//7 3
