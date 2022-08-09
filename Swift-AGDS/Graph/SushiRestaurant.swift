@@ -25,9 +25,10 @@ func sushiRestaurant2() {
         adjList![l].append(r)
         adjList![r].append(l)
     }
-    print(adjList)
     removeFakeLeaf(next: 0, prev: 0)
-    print(adjList)
+    
+    diameter = sushiRestaurant2(next: 0, prev: 0)
+    print(diameter)
 }
 
 func removeFakeLeaf(next: Int, prev: Int) {
@@ -49,9 +50,45 @@ func removeFakeLeaf(next: Int, prev: Int) {
         }
     }
 }
-
-func sushiRestaurant2(next: Int) {
-    
+var diameter = 0
+func sushiRestaurant2(next: Int, prev: Int) -> Int {
+    if adjList![next].count == 1 && adjList![next][0] == prev {
+        return 0
+    } else if adjList![next].isEmpty {
+        return -1
+    } else {
+        if adjList![next].count > 2 || next == 0 && prev == 0 {
+            var left = -1
+            var right = -1
+            if adjList![next][0] == prev {
+                left = sushiRestaurant2(next: adjList![next][1], prev: next) + 1
+                right = sushiRestaurant2(next: adjList![next][2], prev: next) + 1
+            } else if adjList![next][1] == prev {
+                left = sushiRestaurant2(next: adjList![next][0], prev: next) + 1
+                right = sushiRestaurant2(next: adjList![next][2], prev: next) + 1
+            } else {
+                left = sushiRestaurant2(next: adjList![next][0], prev: next) + 1
+                right = sushiRestaurant2(next: adjList![next][1], prev: next) + 1
+            }
+            if next == 0 && prev == 0 {
+                return left + right
+            } else if left > right {
+                return right * 2 + left
+            } else if right > left {
+                return left * 2 + right
+            } else {
+                return left * 2 + right
+            }
+        } else {
+            var left: Int = -1
+            if adjList![next][0] == prev {
+                left = sushiRestaurant2(next: adjList![next][1], prev: next) + 1
+            } else {
+                left = sushiRestaurant2(next: adjList![next][0], prev: next) + 1
+            }
+            return left
+        }
+    }
 }
 
 var total = 0
@@ -135,13 +172,3 @@ func sushiRestaurant(dest: Int, next: Int, prev: Int, count: Int) {
         }
     }
 }
-
-//8 5
-//0 6 4 3 7
-//0 1
-//0 2
-//2 3
-//4 3
-//6 1
-//1 5
-//7 3

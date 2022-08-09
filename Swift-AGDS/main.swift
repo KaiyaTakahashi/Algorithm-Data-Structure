@@ -7,6 +7,4 @@
 
 import Foundation
 
-//print(floodFill([[1,1,1],[1,1,0],[1,0,1]], 1, 1, 2))
-
-print(tomatoFarm())
+sushiRestaurant2()
