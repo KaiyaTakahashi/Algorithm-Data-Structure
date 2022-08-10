@@ -7,4 +7,4 @@
 
 import Foundation
 
-bridge()
+print(canFinish(2, [[1,0],[0,1]]))

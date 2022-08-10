@@ -36,6 +36,7 @@
 		D9DBE81328A195C200750F34 /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBE81228A195C200750F34 /* FloodFill.swift */; };
 		D9DBE81528A1B77400750F34 /* TomatoFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBE81428A1B77400750F34 /* TomatoFarm.swift */; };
 		D9EC682728A2DED300066FCF /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682628A2DED300066FCF /* Bridges.swift */; };
+		D9EC682B28A4329C00066FCF /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682A28A4329C00066FCF /* CourseSchedule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,6 +83,7 @@
 		D9DBE81228A195C200750F34 /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
 		D9DBE81428A1B77400750F34 /* TomatoFarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoFarm.swift; sourceTree = "<group>"; };
 		D9EC682628A2DED300066FCF /* Bridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridges.swift; sourceTree = "<group>"; };
+		D9EC682A28A4329C00066FCF /* CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		D92842E4287C9D6B00EA2C41 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				D9EC682928A4326700066FCF /* TopologicalSort */,
 				D9DBE81128A195AC00750F34 /* FloodFill */,
 				D99080AE28945B4E0074F7C5 /* Graph */,
 				D9451E90289053CF00538EF4 /* DFS.swift */,
@@ -204,6 +207,14 @@
 			path = FloodFill;
 			sourceTree = "<group>";
 		};
+		D9EC682928A4326700066FCF /* TopologicalSort */ = {
+			isa = PBXGroup;
+			children = (
+				D9EC682A28A4329C00066FCF /* CourseSchedule.swift */,
+			);
+			path = TopologicalSort;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -269,6 +280,7 @@
 				D97201F82899914F00F4CB23 /* NumberOfProvinces.swift in Sources */,
 				D9720202289C506500F4CB23 /* SushiRestaurant.swift in Sources */,
 				D92842F0287CA11700EA2C41 /* String+DPStringTool.swift in Sources */,
+				D9EC682B28A4329C00066FCF /* CourseSchedule.swift in Sources */,
 				D99080B22896EB290074F7C5 /* Diameter.swift in Sources */,
 				D9DBE81028A176F500750F34 /* Maze.swift in Sources */,
 				D928430E287F2F6800EA2C41 /* ExhaustiveSearch.swift in Sources */,
