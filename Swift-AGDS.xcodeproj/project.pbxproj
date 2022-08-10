@@ -37,6 +37,7 @@
 		D9DBE81528A1B77400750F34 /* TomatoFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBE81428A1B77400750F34 /* TomatoFarm.swift */; };
 		D9EC682728A2DED300066FCF /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682628A2DED300066FCF /* Bridges.swift */; };
 		D9EC682B28A4329C00066FCF /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682A28A4329C00066FCF /* CourseSchedule.swift */; };
+		D9EC682D28A4642700066FCF /* CourseSchedule2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682C28A4642700066FCF /* CourseSchedule2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -84,6 +85,7 @@
 		D9DBE81428A1B77400750F34 /* TomatoFarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoFarm.swift; sourceTree = "<group>"; };
 		D9EC682628A2DED300066FCF /* Bridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridges.swift; sourceTree = "<group>"; };
 		D9EC682A28A4329C00066FCF /* CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule.swift; sourceTree = "<group>"; };
+		D9EC682C28A4642700066FCF /* CourseSchedule2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				D9EC682A28A4329C00066FCF /* CourseSchedule.swift */,
+				D9EC682C28A4642700066FCF /* CourseSchedule2.swift */,
 			);
 			path = TopologicalSort;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				D9720200289C370B00F4CB23 /* LowestCommonAncestor.swift in Sources */,
 				D9284313287F4AFF00EA2C41 /* Board.swift in Sources */,
 				D92842EE287C9D9C00EA2C41 /* Recursion.swift in Sources */,
+				D9EC682D28A4642700066FCF /* CourseSchedule2.swift in Sources */,
 				D9451E972890BE3300538EF4 /* IsBipartite.swift in Sources */,
 				D9284310287F3EC500EA2C41 /* BackTracking.swift in Sources */,
 				D93B375328888D050087FF32 /* Stack.swift in Sources */,
