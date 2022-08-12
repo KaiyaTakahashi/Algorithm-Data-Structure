@@ -31,11 +31,3 @@ func allPathsSourceTarget(next: Int, graph: [[Int]], path: [Int], nodeSum: Int) 
         }
     }
 }
-
-extension Array {
-    func appendToNewArray(newElement: Element) -> Array {
-        var result = self
-        result.append(newElement)
-        return result
-    }
-}

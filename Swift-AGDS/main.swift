@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(findOrder(2, [[1,0]]))
+sushiRestaurant3()

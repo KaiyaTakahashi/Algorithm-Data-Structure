@@ -7,7 +7,7 @@
 
 import Foundation
 
-func sushiRestaurant2() {
+func sushiRestaurant3() {
     let firstLine = readLine()!.split(separator: " ")
     let nodeSum = Int(String(firstLine[0]))!
     total = Int(String(firstLine[1]))!
@@ -25,71 +25,90 @@ func sushiRestaurant2() {
         adjList![l].append(r)
         adjList![r].append(l)
     }
-    removeFakeLeaf(next: 0, prev: 0)
     
-    diameter = sushiRestaurant2(next: 0, prev: 0)
-    print(diameter)
+    func removeFakeLeaf(next: Int) {
+        if adjList![next].count > 1 || adjList![next].count == 1 && real.contains(next) {
+            return
+        } else {
+            let nextVer = adjList![next].removeFirst()
+            let index = adjList![nextVer].firstIndex(of: next)!
+            adjList![nextVer].remove(at: index)
+            removeFakeLeaf(next: nextVer)
+        }
+    }
+    for i in 0..<adjList!.count {
+        removeFakeLeaf(next: i)
+    }
+    
+    var path = 0
+    let queue = Queue<Int>()
+    func dfs(next: Int, prev: Int) {
+        if adjList![next].isEmpty {
+            path -= 1
+            return
+        } else if adjList![next].count == 1 {
+            return
+        } else {
+            for i in 0..<adjList![next].count {
+                if adjList![next][i] != prev {
+                    path += 1
+                    dfs(next: adjList![next][i], prev: next)
+                }
+            }
+        }
+    }
+    dfs(next: 0, prev: 0)
+    
+    func diameter(next: Int, prev: Int) -> Int {
+        if adjList![next].count == 1 {
+            return 0
+        } else if adjList![next].count == 0 {
+            return -1
+        } else {
+            if next == 0, prev == 0 {
+                var left = 0
+                var right = 0
+                if adjList![next][0] == prev {
+                    left = diameter(next: adjList![next][1], prev: next) + 1
+                    right = diameter(next: adjList![next][2], prev: next) + 1
+                } else if adjList![next][1] == prev {
+                    left = diameter(next: adjList![next][0], prev: next) + 1
+                    right = diameter(next: adjList![next][2], prev: next) + 1
+                } else {
+                    left = diameter(next: adjList![next][0], prev: next) + 1
+                    right = diameter(next: adjList![next][1], prev: next) + 1
+                }
+                return left + right
+            } else if adjList![next].count == 2 {
+                var left = 0
+                if adjList![next][0] == prev {
+                    left = diameter(next: adjList![next][1], prev: next) + 1
+                } else if adjList![next][1] == prev {
+                    left = diameter(next: adjList![next][0], prev: next) + 1
+                }
+                return left
+            } else {
+                var left = 0
+                var right = 0
+                if adjList![next][0] == prev {
+                    left = diameter(next: adjList![next][1], prev: next) + 1
+                    right = diameter(next: adjList![next][2], prev: next) + 1
+                } else if adjList![next][1] == prev {
+                    left = diameter(next: adjList![next][0], prev: next) + 1
+                    right = diameter(next: adjList![next][2], prev: next) + 1
+                } else {
+                    left = diameter(next: adjList![next][0], prev: next) + 1
+                    right = diameter(next: adjList![next][1], prev: next) + 1
+                }
+                return max(right, left)
+            }
+        }
+    }
+    let dia = diameter(next: 0, prev: 0)
+    print(path * 2 - dia)
 }
 
-func removeFakeLeaf(next: Int, prev: Int) {
-    if adjList![next].count == 1 && next != 0 {
-        if real.contains(next) {
-            return
-        }
-        let connected = adjList![next].remove(at: 0)
-        adjList![next] = []
-        return
-    } else {
-        print(adjList![next])
-        var edgeIndex = 0
-        while edgeIndex != adjList![next].count {
-            if adjList![next][edgeIndex] != prev {
-                removeFakeLeaf(next: adjList![next][edgeIndex], prev: next)
-            }
-            edgeIndex += 1
-        }
-    }
-}
-var diameter = 0
-func sushiRestaurant2(next: Int, prev: Int) -> Int {
-    if adjList![next].count == 1 && adjList![next][0] == prev {
-        return 0
-    } else if adjList![next].isEmpty {
-        return -1
-    } else {
-        if adjList![next].count > 2 || next == 0 && prev == 0 {
-            var left = -1
-            var right = -1
-            if adjList![next][0] == prev {
-                left = sushiRestaurant2(next: adjList![next][1], prev: next) + 1
-                right = sushiRestaurant2(next: adjList![next][2], prev: next) + 1
-            } else if adjList![next][1] == prev {
-                left = sushiRestaurant2(next: adjList![next][0], prev: next) + 1
-                right = sushiRestaurant2(next: adjList![next][2], prev: next) + 1
-            } else {
-                left = sushiRestaurant2(next: adjList![next][0], prev: next) + 1
-                right = sushiRestaurant2(next: adjList![next][1], prev: next) + 1
-            }
-            if next == 0 && prev == 0 {
-                return left + right
-            } else if left > right {
-                return right * 2 + left
-            } else if right > left {
-                return left * 2 + right
-            } else {
-                return left * 2 + right
-            }
-        } else {
-            var left: Int = -1
-            if adjList![next][0] == prev {
-                left = sushiRestaurant2(next: adjList![next][1], prev: next) + 1
-            } else {
-                left = sushiRestaurant2(next: adjList![next][0], prev: next) + 1
-            }
-            return left
-        }
-    }
-}
+
 
 var total = 0
 var real = [Int]()

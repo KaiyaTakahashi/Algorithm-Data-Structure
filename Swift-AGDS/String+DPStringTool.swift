@@ -30,4 +30,10 @@ extension String {
 	}
 }
 
-
+extension Array {
+    func appendToNewArray(newElement: Element) -> Array {
+        var result = self
+        result.append(newElement)
+        return result
+    }
+}

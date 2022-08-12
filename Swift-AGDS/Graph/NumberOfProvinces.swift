@@ -40,3 +40,37 @@ func findCircleNum(adjList: [[Int]], visited: inout [Bool], next: Int) {
         }
     }
 }
+
+func findCircleNum2(_ isConnected: [[Int]]) -> Int {
+    var adjList = [[Int]](repeating: [], count: isConnected.count)
+    
+    for i in 0..<isConnected.count {
+        for j in 0..<isConnected[i].count {
+            if isConnected[i][j] == 1 && i != j {
+                adjList[i].append(j + 1)
+            }
+        }
+    }
+    var visited = [Bool](repeating: false, count: isConnected.count)
+    func findCircleNum2(next: Int) {
+        if visited[next - 1] == true {
+            return
+        } else if adjList[next - 1].isEmpty{
+            visited[next - 1] = true
+            return
+        } else {
+            visited[next - 1] = true
+            for i in 0..<adjList[next - 1].count {
+                findCircleNum2(next: adjList[next - 1][i])
+            }
+        }
+    }
+    
+    var count = 0
+    while visited.contains(false) {
+        let unvisited = visited.firstIndex(of: false)!
+        findCircleNum2(next: unvisited + 1)
+        count += 1
+    }
+    return count
+}
