@@ -38,6 +38,7 @@
 		D9EC682728A2DED300066FCF /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682628A2DED300066FCF /* Bridges.swift */; };
 		D9EC682B28A4329C00066FCF /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682A28A4329C00066FCF /* CourseSchedule.swift */; };
 		D9EC682D28A4642700066FCF /* CourseSchedule2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682C28A4642700066FCF /* CourseSchedule2.swift */; };
+		D9EC683028A8284500066FCF /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682F28A8284500066FCF /* TwoCityScheduling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,6 +87,7 @@
 		D9EC682628A2DED300066FCF /* Bridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridges.swift; sourceTree = "<group>"; };
 		D9EC682A28A4329C00066FCF /* CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule.swift; sourceTree = "<group>"; };
 		D9EC682C28A4642700066FCF /* CourseSchedule2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule2.swift; sourceTree = "<group>"; };
+		D9EC682F28A8284500066FCF /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		D92842E4287C9D6B00EA2C41 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				D9EC682E28A8281600066FCF /* GreedyAlgorithm */,
 				D9EC682928A4326700066FCF /* TopologicalSort */,
 				D9DBE81128A195AC00750F34 /* FloodFill */,
 				D99080AE28945B4E0074F7C5 /* Graph */,
@@ -218,6 +221,14 @@
 			path = TopologicalSort;
 			sourceTree = "<group>";
 		};
+		D9EC682E28A8281600066FCF /* GreedyAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				D9EC682F28A8284500066FCF /* TwoCityScheduling.swift */,
+			);
+			path = GreedyAlgorithm;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -287,6 +298,7 @@
 				D99080B22896EB290074F7C5 /* Diameter.swift in Sources */,
 				D9DBE81028A176F500750F34 /* Maze.swift in Sources */,
 				D928430E287F2F6800EA2C41 /* ExhaustiveSearch.swift in Sources */,
+				D9EC683028A8284500066FCF /* TwoCityScheduling.swift in Sources */,
 				D93E115D28A04F1D004E3582 /* AllPathsSourceTarget.swift in Sources */,
 				D9284315287F4B0A00EA2C41 /* QueensSolver.swift in Sources */,
 				D93B375528888D0D0087FF32 /* Queue.swift in Sources */,
