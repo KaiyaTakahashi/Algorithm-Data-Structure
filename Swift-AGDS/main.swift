@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(twoCitySchedCost([[259,770],[448,54],[926,667],[184,139],[840,118],[577,469]]))
+print(canCompleteCircuit3([1,2,3,4,5], [3,4,5,1,2]))

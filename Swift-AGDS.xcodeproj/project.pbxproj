@@ -39,6 +39,10 @@
 		D9EC682B28A4329C00066FCF /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682A28A4329C00066FCF /* CourseSchedule.swift */; };
 		D9EC682D28A4642700066FCF /* CourseSchedule2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682C28A4642700066FCF /* CourseSchedule2.swift */; };
 		D9EC683028A8284500066FCF /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682F28A8284500066FCF /* TwoCityScheduling.swift */; };
+		D9EC683228A86FE700066FCF /* MeetingRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC683128A86FE700066FCF /* MeetingRooms.swift */; };
+		D9EC683428A8A48400066FCF /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC683328A8A48400066FCF /* GasStation.swift */; };
+		D9EC683628A9A2C700066FCF /* PartitionLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC683528A9A2C700066FCF /* PartitionLabels.swift */; };
+		D9EC683828AAE5B100066FCF /* TaskScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC683728AAE5B100066FCF /* TaskScheduler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +92,10 @@
 		D9EC682A28A4329C00066FCF /* CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule.swift; sourceTree = "<group>"; };
 		D9EC682C28A4642700066FCF /* CourseSchedule2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule2.swift; sourceTree = "<group>"; };
 		D9EC682F28A8284500066FCF /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
+		D9EC683128A86FE700066FCF /* MeetingRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRooms.swift; sourceTree = "<group>"; };
+		D9EC683328A8A48400066FCF /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
+		D9EC683528A9A2C700066FCF /* PartitionLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionLabels.swift; sourceTree = "<group>"; };
+		D9EC683728AAE5B100066FCF /* TaskScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskScheduler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +233,10 @@
 			isa = PBXGroup;
 			children = (
 				D9EC682F28A8284500066FCF /* TwoCityScheduling.swift */,
+				D9EC683128A86FE700066FCF /* MeetingRooms.swift */,
+				D9EC683328A8A48400066FCF /* GasStation.swift */,
+				D9EC683528A9A2C700066FCF /* PartitionLabels.swift */,
+				D9EC683728AAE5B100066FCF /* TaskScheduler.swift */,
 			);
 			path = GreedyAlgorithm;
 			sourceTree = "<group>";
@@ -291,11 +303,13 @@
 				D99080B028945E8C0074F7C5 /* myParent.swift in Sources */,
 				D9451E91289053CF00538EF4 /* DFS.swift in Sources */,
 				D9451E9328905F2600538EF4 /* ConnectedComponents.swift in Sources */,
+				D9EC683828AAE5B100066FCF /* TaskScheduler.swift in Sources */,
 				D97201F82899914F00F4CB23 /* NumberOfProvinces.swift in Sources */,
 				D9720202289C506500F4CB23 /* SushiRestaurant.swift in Sources */,
 				D92842F0287CA11700EA2C41 /* String+DPStringTool.swift in Sources */,
 				D9EC682B28A4329C00066FCF /* CourseSchedule.swift in Sources */,
 				D99080B22896EB290074F7C5 /* Diameter.swift in Sources */,
+				D9EC683628A9A2C700066FCF /* PartitionLabels.swift in Sources */,
 				D9DBE81028A176F500750F34 /* Maze.swift in Sources */,
 				D928430E287F2F6800EA2C41 /* ExhaustiveSearch.swift in Sources */,
 				D9EC683028A8284500066FCF /* TwoCityScheduling.swift in Sources */,
@@ -305,11 +319,13 @@
 				D9720200289C370B00F4CB23 /* LowestCommonAncestor.swift in Sources */,
 				D9284313287F4AFF00EA2C41 /* Board.swift in Sources */,
 				D92842EE287C9D9C00EA2C41 /* Recursion.swift in Sources */,
+				D9EC683228A86FE700066FCF /* MeetingRooms.swift in Sources */,
 				D9EC682D28A4642700066FCF /* CourseSchedule2.swift in Sources */,
 				D9451E972890BE3300538EF4 /* IsBipartite.swift in Sources */,
 				D9284310287F3EC500EA2C41 /* BackTracking.swift in Sources */,
 				D93B375328888D050087FF32 /* Stack.swift in Sources */,
 				D97201F62899913600F4CB23 /* FindTheTownJudge.swift in Sources */,
+				D9EC683428A8A48400066FCF /* GasStation.swift in Sources */,
 				D93B37592888D7E40087FF32 /* KMPAlgorithm.swift in Sources */,
 				D9DBE81528A1B77400750F34 /* TomatoFarm.swift in Sources */,
 				D9451E9928920E2400538EF4 /* CirclePermutation.swift in Sources */,
