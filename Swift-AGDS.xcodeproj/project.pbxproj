@@ -43,6 +43,7 @@
 		D9EC683428A8A48400066FCF /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC683328A8A48400066FCF /* GasStation.swift */; };
 		D9EC683628A9A2C700066FCF /* PartitionLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC683528A9A2C700066FCF /* PartitionLabels.swift */; };
 		D9EC683828AAE5B100066FCF /* TaskScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC683728AAE5B100066FCF /* TaskScheduler.swift */; };
+		D9EC683B28AC3D8400066FCF /* UnionFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC683A28AC3D8400066FCF /* UnionFind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,6 +97,7 @@
 		D9EC683328A8A48400066FCF /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
 		D9EC683528A9A2C700066FCF /* PartitionLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionLabels.swift; sourceTree = "<group>"; };
 		D9EC683728AAE5B100066FCF /* TaskScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskScheduler.swift; sourceTree = "<group>"; };
+		D9EC683A28AC3D8400066FCF /* UnionFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		D92842E4287C9D6B00EA2C41 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				D9EC683928AC3D4100066FCF /* UnionFind */,
 				D9EC682E28A8281600066FCF /* GreedyAlgorithm */,
 				D9EC682928A4326700066FCF /* TopologicalSort */,
 				D9DBE81128A195AC00750F34 /* FloodFill */,
@@ -241,6 +244,14 @@
 			path = GreedyAlgorithm;
 			sourceTree = "<group>";
 		};
+		D9EC683928AC3D4100066FCF /* UnionFind */ = {
+			isa = PBXGroup;
+			children = (
+				D9EC683A28AC3D8400066FCF /* UnionFind.swift */,
+			);
+			path = UnionFind;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -313,6 +324,7 @@
 				D9DBE81028A176F500750F34 /* Maze.swift in Sources */,
 				D928430E287F2F6800EA2C41 /* ExhaustiveSearch.swift in Sources */,
 				D9EC683028A8284500066FCF /* TwoCityScheduling.swift in Sources */,
+				D9EC683B28AC3D8400066FCF /* UnionFind.swift in Sources */,
 				D93E115D28A04F1D004E3582 /* AllPathsSourceTarget.swift in Sources */,
 				D9284315287F4B0A00EA2C41 /* QueensSolver.swift in Sources */,
 				D93B375528888D0D0087FF32 /* Queue.swift in Sources */,

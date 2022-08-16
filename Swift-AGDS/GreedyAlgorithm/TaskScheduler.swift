@@ -41,3 +41,15 @@ func leastInterval(_ tasks: [Character], _ n: Int) -> Int {
     }
     return taskOrder.count
 }
+
+func leastInterval2(_ tasks: [Character], _ n: Int) -> Int {
+    var taskArr = [Int](repeating: 0, count: 26)
+    for i in 0..<tasks.count {
+        taskArr[Int(Character(String(tasks[i])).asciiValue!) - 65] += 1
+    }
+    return 0
+    var count = 0
+    while count == tasks.count {
+        
+    }
+}
