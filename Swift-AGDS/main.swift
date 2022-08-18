@@ -8,11 +8,4 @@
 import Foundation
 
 
-
-var uf = UF(5)
-
-uf.union(0, 1)
-uf.union(2, 3)
-uf.union(1, 3)
-print(uf.connected(0, 3))
-print(uf.root(1))
+print(minimumCostFlow())
