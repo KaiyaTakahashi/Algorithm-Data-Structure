@@ -12,8 +12,6 @@ func minimumCostFlow() -> Int {
     let verNum = Int(firstLine[0])!
     let scanNum = Int(firstLine[1])!
     let enhancer = Int(firstLine[2])!
-    
-    var mst = [[Int]](repeating: [], count: verNum - 1)
 
     var pipeMap = [[Int]](repeating: [], count: scanNum)
     for i in 0..<scanNum {
@@ -41,8 +39,8 @@ func minimumCostFlow() -> Int {
     if replacableMinPipes.count == 0 {
         return 0
     }
+    let totalDays = replacableMinPipes.count
     var lowestCityPipe = replacableCityPipes.removeFirst()[2]
-    var totalDays = replacableMinPipes.count
     while !replacableCityPipes.isEmpty {
         let cityPipe = replacableCityPipes.removeFirst()[2]
         if lowestCityPipe > cityPipe {
