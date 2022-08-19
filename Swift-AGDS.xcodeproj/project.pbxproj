@@ -48,6 +48,7 @@
 		D9EC683F28AD795400066FCF /* LongestConsecutiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC683E28AD795400066FCF /* LongestConsecutiveSequence.swift */; };
 		D9EC684128AD989D00066FCF /* TheNumberOfProvinces.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC684028AD989D00066FCF /* TheNumberOfProvinces.swift */; };
 		D9EC684428AEB5C200066FCF /* MinimumCostFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC684328AEB5C200066FCF /* MinimumCostFlow.swift */; };
+		D9EC684628AFFF4000066FCF /* MinimumTestFlowTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC684528AFFF4000066FCF /* MinimumTestFlowTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -106,6 +107,7 @@
 		D9EC683E28AD795400066FCF /* LongestConsecutiveSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutiveSequence.swift; sourceTree = "<group>"; };
 		D9EC684028AD989D00066FCF /* TheNumberOfProvinces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNumberOfProvinces.swift; sourceTree = "<group>"; };
 		D9EC684328AEB5C200066FCF /* MinimumCostFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumCostFlow.swift; sourceTree = "<group>"; };
+		D9EC684528AFFF4000066FCF /* MinimumTestFlowTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumTestFlowTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				D9EC684328AEB5C200066FCF /* MinimumCostFlow.swift */,
+				D9EC684528AFFF4000066FCF /* MinimumTestFlowTest.swift */,
 			);
 			path = MinimumSpanningTree;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				D9DBE81328A195C200750F34 /* FloodFill.swift in Sources */,
 				D9EC684428AEB5C200066FCF /* MinimumCostFlow.swift in Sources */,
 				D93B3751288862060087FF32 /* Bag.swift in Sources */,
+				D9EC684628AFFF4000066FCF /* MinimumTestFlowTest.swift in Sources */,
 				D951607F2885F9190028A834 /* QuickSort.swift in Sources */,
 				D9EC682728A2DED300066FCF /* Bridges.swift in Sources */,
 				D97201FA2899916D00F4CB23 /* FindCenterOfStarGraph.swift in Sources */,

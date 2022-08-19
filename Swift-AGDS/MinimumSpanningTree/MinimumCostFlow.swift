@@ -24,7 +24,7 @@ func minimumCostFlow() -> Int {
     var uf = UF(verNum)
     var minPipeMap = Set<[Int]>()
 
-    for i in 0..<verNum {
+    for i in 0..<scanNum {
         if !uf.connected(sortPipeMap[i][0] - 1, sortPipeMap[i][1] - 1) {
             minPipeMap.insert(sortPipeMap[i])
             uf.union(sortPipeMap[i][0] - 1, sortPipeMap[i][1] - 1)
@@ -61,6 +61,7 @@ func minimumCostFlow() -> Int {
         return totalDays
     }
 }
+
 
 //Sample Input 1
 //4 4 0
