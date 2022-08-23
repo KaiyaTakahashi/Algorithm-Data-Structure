@@ -49,6 +49,11 @@
 		D9EC684128AD989D00066FCF /* TheNumberOfProvinces.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC684028AD989D00066FCF /* TheNumberOfProvinces.swift */; };
 		D9EC684428AEB5C200066FCF /* MinimumCostFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC684328AEB5C200066FCF /* MinimumCostFlow.swift */; };
 		D9EC684628AFFF4000066FCF /* MinimumTestFlowTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC684528AFFF4000066FCF /* MinimumTestFlowTest.swift */; };
+		D9EC684828B1680400066FCF /* MinCostConnectedAllPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC684728B1680400066FCF /* MinCostConnectedAllPoints.swift */; };
+		D9EC684A28B3024600066FCF /* MaxIncreaseToKeepCitySkyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC684928B3024600066FCF /* MaxIncreaseToKeepCitySkyline.swift */; };
+		D9EC684C28B3335800066FCF /* BoatsToSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC684B28B3335800066FCF /* BoatsToSavePeople.swift */; };
+		D9EC685128B5491B00066FCF /* NetworkDelayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC685028B5491B00066FCF /* NetworkDelayTime.swift */; };
+		D9EC685328B577E300066FCF /* CheapestFlightWithinKStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC685228B577E300066FCF /* CheapestFlightWithinKStop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -108,6 +113,11 @@
 		D9EC684028AD989D00066FCF /* TheNumberOfProvinces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNumberOfProvinces.swift; sourceTree = "<group>"; };
 		D9EC684328AEB5C200066FCF /* MinimumCostFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumCostFlow.swift; sourceTree = "<group>"; };
 		D9EC684528AFFF4000066FCF /* MinimumTestFlowTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumTestFlowTest.swift; sourceTree = "<group>"; };
+		D9EC684728B1680400066FCF /* MinCostConnectedAllPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCostConnectedAllPoints.swift; sourceTree = "<group>"; };
+		D9EC684928B3024600066FCF /* MaxIncreaseToKeepCitySkyline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxIncreaseToKeepCitySkyline.swift; sourceTree = "<group>"; };
+		D9EC684B28B3335800066FCF /* BoatsToSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatsToSavePeople.swift; sourceTree = "<group>"; };
+		D9EC685028B5491B00066FCF /* NetworkDelayTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDelayTime.swift; sourceTree = "<group>"; };
+		D9EC685228B577E300066FCF /* CheapestFlightWithinKStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheapestFlightWithinKStop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +150,7 @@
 		D92842E4287C9D6B00EA2C41 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				D9EC684D28B3F7A500066FCF /* ShortestPath */,
 				D9EC684228AEB5A500066FCF /* MinimumSpanningTree */,
 				D9EC683928AC3D4100066FCF /* UnionFind */,
 				D9EC682E28A8281600066FCF /* GreedyAlgorithm */,
@@ -251,6 +262,8 @@
 				D9EC683328A8A48400066FCF /* GasStation.swift */,
 				D9EC683528A9A2C700066FCF /* PartitionLabels.swift */,
 				D9EC683728AAE5B100066FCF /* TaskScheduler.swift */,
+				D9EC684928B3024600066FCF /* MaxIncreaseToKeepCitySkyline.swift */,
+				D9EC684B28B3335800066FCF /* BoatsToSavePeople.swift */,
 			);
 			path = GreedyAlgorithm;
 			sourceTree = "<group>";
@@ -271,8 +284,18 @@
 			children = (
 				D9EC684328AEB5C200066FCF /* MinimumCostFlow.swift */,
 				D9EC684528AFFF4000066FCF /* MinimumTestFlowTest.swift */,
+				D9EC684728B1680400066FCF /* MinCostConnectedAllPoints.swift */,
 			);
 			path = MinimumSpanningTree;
+			sourceTree = "<group>";
+		};
+		D9EC684D28B3F7A500066FCF /* ShortestPath */ = {
+			isa = PBXGroup;
+			children = (
+				D9EC685028B5491B00066FCF /* NetworkDelayTime.swift */,
+				D9EC685228B577E300066FCF /* CheapestFlightWithinKStop.swift */,
+			);
+			path = ShortestPath;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +368,8 @@
 				D92842F0287CA11700EA2C41 /* String+DPStringTool.swift in Sources */,
 				D9EC682B28A4329C00066FCF /* CourseSchedule.swift in Sources */,
 				D99080B22896EB290074F7C5 /* Diameter.swift in Sources */,
+				D9EC685328B577E300066FCF /* CheapestFlightWithinKStop.swift in Sources */,
+				D9EC685128B5491B00066FCF /* NetworkDelayTime.swift in Sources */,
 				D9EC683628A9A2C700066FCF /* PartitionLabels.swift in Sources */,
 				D9DBE81028A176F500750F34 /* Maze.swift in Sources */,
 				D928430E287F2F6800EA2C41 /* ExhaustiveSearch.swift in Sources */,
@@ -354,7 +379,9 @@
 				D9284315287F4B0A00EA2C41 /* QueensSolver.swift in Sources */,
 				D93B375528888D0D0087FF32 /* Queue.swift in Sources */,
 				D9720200289C370B00F4CB23 /* LowestCommonAncestor.swift in Sources */,
+				D9EC684A28B3024600066FCF /* MaxIncreaseToKeepCitySkyline.swift in Sources */,
 				D9284313287F4AFF00EA2C41 /* Board.swift in Sources */,
+				D9EC684828B1680400066FCF /* MinCostConnectedAllPoints.swift in Sources */,
 				D92842EE287C9D9C00EA2C41 /* Recursion.swift in Sources */,
 				D9EC683228A86FE700066FCF /* MeetingRooms.swift in Sources */,
 				D9EC683F28AD795400066FCF /* LongestConsecutiveSequence.swift in Sources */,
@@ -370,6 +397,7 @@
 				D92842E6287C9D6B00EA2C41 /* main.swift in Sources */,
 				D9DBE81328A195C200750F34 /* FloodFill.swift in Sources */,
 				D9EC684428AEB5C200066FCF /* MinimumCostFlow.swift in Sources */,
+				D9EC684C28B3335800066FCF /* BoatsToSavePeople.swift in Sources */,
 				D93B3751288862060087FF32 /* Bag.swift in Sources */,
 				D9EC684628AFFF4000066FCF /* MinimumTestFlowTest.swift in Sources */,
 				D951607F2885F9190028A834 /* QuickSort.swift in Sources */,

@@ -7,14 +7,15 @@
 
 import Foundation
 
-func minimumCostFlowTest() -> String {
+func minimumCostFlowTest() {
     for i in 1...50 {
+        print("file\(i)")
         let baseFilename = "/Users/kaiyatakahashi/Downloads/mcf/mcf"
         let fileNum = i < 10 ? "0" + String(i) : String(i)
         let inFilename = baseFilename + "." + fileNum + ".in"
         let outFilename = baseFilename + "." + fileNum + ".out"
-        var str1: String = ""
-        var str2: String = ""
+        var str1 = [[Int]]()
+        var str2 = [[Int]]()
         var myCounter1: Int
         var myCounter2: Int
         do {
@@ -24,17 +25,23 @@ func minimumCostFlowTest() -> String {
             let outLines = outContents.split(separator: "\n")
             myCounter1 = inLines.count
             for i in 0..<myCounter1 {
-                str1 += String(inLines[i])
-                str1 += "\n"
+                let line = inLines[i].split(separator: " ").map { Int(String($0))! }
+                str1.append(line)
             }
             myCounter2 = outLines.count
             for i in 0..<myCounter2 {
-                str2 += String(outLines[i])
-                str2 += "\n"
+                let line = outLines[i].split(separator: " ").map { Int(String($0))! }
+                str2.append(line)
+            }
+            let ans = minimumCostFlow(input: str1)
+
+            if ans == str2[0][0] {
+                print("Passed Test Case\(i)")
+            } else {
+                print("Faild, input:\(inLines), expected: \(outLines)")
             }
         } catch {
-            return (error.localizedDescription)
+            (error.localizedDescription)
         }
     }
-    return "Passed All Test Case"
 }
