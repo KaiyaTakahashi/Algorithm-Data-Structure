@@ -21,11 +21,11 @@ func networkDelayTime(_ times: [[Int]], _ n: Int, _ k: Int) -> Int {
         return -1
     }
     
-    var shortestD = [Int](repeating: 2147483648, count: n)
+    var shortestD = [Int](repeating: 9223372036854775807, count: n)
     shortestD[k - 1] = 0
     var visited = Set<Int>()
     while visited.count < n {
-        var min =  2147483648
+        var min =  9223372036854775807
         var minIndex = -1
         for i in 0..<shortestD.count {
             if !visited.contains(i) && min > shortestD[i] {

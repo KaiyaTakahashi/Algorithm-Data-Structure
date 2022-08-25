@@ -54,6 +54,8 @@
 		D9EC684C28B3335800066FCF /* BoatsToSavePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC684B28B3335800066FCF /* BoatsToSavePeople.swift */; };
 		D9EC685128B5491B00066FCF /* NetworkDelayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC685028B5491B00066FCF /* NetworkDelayTime.swift */; };
 		D9EC685328B577E300066FCF /* CheapestFlightWithinKStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC685228B577E300066FCF /* CheapestFlightWithinKStop.swift */; };
+		D9EC685528B6CCC200066FCF /* PathWithMaximumProbability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC685428B6CCC200066FCF /* PathWithMaximumProbability.swift */; };
+		D9EC685728B754CD00066FCF /* PathWithMinimumEffort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC685628B754CD00066FCF /* PathWithMinimumEffort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -118,6 +120,8 @@
 		D9EC684B28B3335800066FCF /* BoatsToSavePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatsToSavePeople.swift; sourceTree = "<group>"; };
 		D9EC685028B5491B00066FCF /* NetworkDelayTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDelayTime.swift; sourceTree = "<group>"; };
 		D9EC685228B577E300066FCF /* CheapestFlightWithinKStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheapestFlightWithinKStop.swift; sourceTree = "<group>"; };
+		D9EC685428B6CCC200066FCF /* PathWithMaximumProbability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathWithMaximumProbability.swift; sourceTree = "<group>"; };
+		D9EC685628B754CD00066FCF /* PathWithMinimumEffort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathWithMinimumEffort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +298,8 @@
 			children = (
 				D9EC685028B5491B00066FCF /* NetworkDelayTime.swift */,
 				D9EC685228B577E300066FCF /* CheapestFlightWithinKStop.swift */,
+				D9EC685428B6CCC200066FCF /* PathWithMaximumProbability.swift */,
+				D9EC685628B754CD00066FCF /* PathWithMinimumEffort.swift */,
 			);
 			path = ShortestPath;
 			sourceTree = "<group>";
@@ -394,6 +400,8 @@
 				D93B37592888D7E40087FF32 /* KMPAlgorithm.swift in Sources */,
 				D9DBE81528A1B77400750F34 /* TomatoFarm.swift in Sources */,
 				D9451E9928920E2400538EF4 /* CirclePermutation.swift in Sources */,
+				D9EC685728B754CD00066FCF /* PathWithMinimumEffort.swift in Sources */,
+				D9EC685528B6CCC200066FCF /* PathWithMaximumProbability.swift in Sources */,
 				D92842E6287C9D6B00EA2C41 /* main.swift in Sources */,
 				D9DBE81328A195C200750F34 /* FloodFill.swift in Sources */,
 				D9EC684428AEB5C200066FCF /* MinimumCostFlow.swift in Sources */,
