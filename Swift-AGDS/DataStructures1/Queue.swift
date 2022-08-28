@@ -7,53 +7,61 @@
 
 import Foundation
 
-public final class Queue<E>: Sequence {
-    
+public final class Queue<E> : Sequence {
+    /// beginning of queue
     private var first: Node<E>? = nil
-    
+    /// end of queue
+    private var last: Node<E>? = nil
+    /// size of the queue
     private(set) var count: Int = 0
     
+    /// helper linked list node class
     fileprivate class Node<E> {
         fileprivate var item: E
         fileprivate var next: Node<E>?
-        fileprivate init(item: E, next: Node<E>?) {
+        fileprivate init(item: E, next: Node<E>? = nil) {
             self.item = item
             self.next = next
         }
     }
     
-    init() { }
+    /// Initializes an empty queue.
+    public init() {}
     
-    public func enqueue(item: E) {
-        let newNode = Node<E>(item: item, next: nil)
-        if first == nil {
-            first = newNode
-        } else {
-            var iterateNode = first
-            while iterateNode?.next != nil {
-                iterateNode = iterateNode?.next
-            }
-            iterateNode?.next = newNode
-        }
-        count += 1
-    }
-    
-    public func dequeue() -> E? {
-        let firstNode = first
-        first = first?.next
-        count -= 1
-        return firstNode?.item
-    }
-    
-    public func peek() -> E? {
-        return first?.item
-    }
-    
+    /// Returns true if this queue is empty.
     public func isEmpty() -> Bool {
         return first == nil
     }
     
-    public struct QueueIterator<E>: IteratorProtocol {
+    /// Returns the item least recently added to this queue.
+    public func peek() -> E? {
+        return first?.item
+    }
+    
+    /// Adds the item to this queue
+    /// - Parameter item: the item to add
+    public func enqueue(item: E) {
+        let oldLast = last
+        last = Node<E>(item: item)
+        if isEmpty() { first = last }
+        else { oldLast?.next = last }
+        count += 1
+    }
+    
+    /// Removes and returns the item on this queue that was least recently added.
+    public func dequeue() -> E? {
+        if let item = first?.item {
+            first = first?.next
+            count -= 1
+            // to avoid loitering
+            if isEmpty() { last = nil }
+            return item
+        }
+        return nil
+    }
+    
+    /// QueueIterator that iterates over the items in FIFO order.
+    public struct QueueIterator<E> : IteratorProtocol {
         private var current: Node<E>?
         
         fileprivate init(_ first: Node<E>?) {
@@ -67,9 +75,18 @@ public final class Queue<E>: Sequence {
             }
             return nil
         }
+        
+        public typealias Element = E
     }
     
-    public func makeIterator() -> QueueIterator<E> {
-        return QueueIterator(first)
+    /// Returns an iterator that iterates over the items in this Queue in FIFO order.
+    public __consuming func makeIterator() -> QueueIterator<E> {
+        return QueueIterator<E>(first)
+    }
+}
+
+extension Queue: CustomStringConvertible {
+    public var description: String {
+        return self.reduce(into: "") { $0 += "\($1) " }
     }
 }

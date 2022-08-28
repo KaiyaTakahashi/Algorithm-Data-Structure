@@ -56,6 +56,14 @@
 		D9EC685328B577E300066FCF /* CheapestFlightWithinKStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC685228B577E300066FCF /* CheapestFlightWithinKStop.swift */; };
 		D9EC685528B6CCC200066FCF /* PathWithMaximumProbability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC685428B6CCC200066FCF /* PathWithMaximumProbability.swift */; };
 		D9EC685728B754CD00066FCF /* PathWithMinimumEffort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC685628B754CD00066FCF /* PathWithMinimumEffort.swift */; };
+		D9EC685E28B8C0D700066FCF /* 2xNTiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC685D28B8C0D700066FCF /* 2xNTiles.swift */; };
+		D9EC686428B92C7E00066FCF /* lps.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC686328B92C7E00066FCF /* lps.swift */; };
+		D9EC686628B9332B00066FCF /* happy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC686528B9332B00066FCF /* happy.swift */; };
+		D9EC686828B936E600066FCF /* corona.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC686728B936E600066FCF /* corona.swift */; };
+		D9EC686A28B939AB00066FCF /* duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC686928B939AB00066FCF /* duplicate.swift */; };
+		D9EC686C28B93D5400066FCF /* patternMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC686B28B93D5400066FCF /* patternMatch.swift */; };
+		D9EC686E28B93F2D00066FCF /* lcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC686D28B93F2C00066FCF /* lcs.swift */; };
+		D9EC687028BAB94F00066FCF /* FindTheCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC686F28BAB94F00066FCF /* FindTheCity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -122,6 +130,14 @@
 		D9EC685228B577E300066FCF /* CheapestFlightWithinKStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheapestFlightWithinKStop.swift; sourceTree = "<group>"; };
 		D9EC685428B6CCC200066FCF /* PathWithMaximumProbability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathWithMaximumProbability.swift; sourceTree = "<group>"; };
 		D9EC685628B754CD00066FCF /* PathWithMinimumEffort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathWithMinimumEffort.swift; sourceTree = "<group>"; };
+		D9EC685D28B8C0D700066FCF /* 2xNTiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2xNTiles.swift; sourceTree = "<group>"; };
+		D9EC686328B92C7E00066FCF /* lps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lps.swift; sourceTree = "<group>"; };
+		D9EC686528B9332B00066FCF /* happy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happy.swift; sourceTree = "<group>"; };
+		D9EC686728B936E600066FCF /* corona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = corona.swift; sourceTree = "<group>"; };
+		D9EC686928B939AB00066FCF /* duplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = duplicate.swift; sourceTree = "<group>"; };
+		D9EC686B28B93D5400066FCF /* patternMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patternMatch.swift; sourceTree = "<group>"; };
+		D9EC686D28B93F2C00066FCF /* lcs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lcs.swift; sourceTree = "<group>"; };
+		D9EC686F28BAB94F00066FCF /* FindTheCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheCity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +170,7 @@
 		D92842E4287C9D6B00EA2C41 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				D9EC685C28B8C0B400066FCF /* DynamicProgramming */,
 				D9EC684D28B3F7A500066FCF /* ShortestPath */,
 				D9EC684228AEB5A500066FCF /* MinimumSpanningTree */,
 				D9EC683928AC3D4100066FCF /* UnionFind */,
@@ -172,6 +189,12 @@
 				D92842E5287C9D6B00EA2C41 /* main.swift */,
 				D9451E962890BE3300538EF4 /* IsBipartite.swift */,
 				D9DBE80F28A176F500750F34 /* Maze.swift */,
+				D9EC686328B92C7E00066FCF /* lps.swift */,
+				D9EC686528B9332B00066FCF /* happy.swift */,
+				D9EC686728B936E600066FCF /* corona.swift */,
+				D9EC686928B939AB00066FCF /* duplicate.swift */,
+				D9EC686B28B93D5400066FCF /* patternMatch.swift */,
+				D9EC686D28B93F2C00066FCF /* lcs.swift */,
 			);
 			path = "Swift-AGDS";
 			sourceTree = "<group>";
@@ -300,8 +323,17 @@
 				D9EC685228B577E300066FCF /* CheapestFlightWithinKStop.swift */,
 				D9EC685428B6CCC200066FCF /* PathWithMaximumProbability.swift */,
 				D9EC685628B754CD00066FCF /* PathWithMinimumEffort.swift */,
+				D9EC686F28BAB94F00066FCF /* FindTheCity.swift */,
 			);
 			path = ShortestPath;
+			sourceTree = "<group>";
+		};
+		D9EC685C28B8C0B400066FCF /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				D9EC685D28B8C0D700066FCF /* 2xNTiles.swift */,
+			);
+			path = DynamicProgramming;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,7 +403,9 @@
 				D97201F82899914F00F4CB23 /* NumberOfProvinces.swift in Sources */,
 				D9720202289C506500F4CB23 /* SushiRestaurant.swift in Sources */,
 				D9EC683D28AC5CD100066FCF /* RedundantConnection.swift in Sources */,
+				D9EC687028BAB94F00066FCF /* FindTheCity.swift in Sources */,
 				D92842F0287CA11700EA2C41 /* String+DPStringTool.swift in Sources */,
+				D9EC686428B92C7E00066FCF /* lps.swift in Sources */,
 				D9EC682B28A4329C00066FCF /* CourseSchedule.swift in Sources */,
 				D99080B22896EB290074F7C5 /* Diameter.swift in Sources */,
 				D9EC685328B577E300066FCF /* CheapestFlightWithinKStop.swift in Sources */,
@@ -385,6 +419,8 @@
 				D9284315287F4B0A00EA2C41 /* QueensSolver.swift in Sources */,
 				D93B375528888D0D0087FF32 /* Queue.swift in Sources */,
 				D9720200289C370B00F4CB23 /* LowestCommonAncestor.swift in Sources */,
+				D9EC686828B936E600066FCF /* corona.swift in Sources */,
+				D9EC686A28B939AB00066FCF /* duplicate.swift in Sources */,
 				D9EC684A28B3024600066FCF /* MaxIncreaseToKeepCitySkyline.swift in Sources */,
 				D9284313287F4AFF00EA2C41 /* Board.swift in Sources */,
 				D9EC684828B1680400066FCF /* MinCostConnectedAllPoints.swift in Sources */,
@@ -393,8 +429,10 @@
 				D9EC683F28AD795400066FCF /* LongestConsecutiveSequence.swift in Sources */,
 				D9EC682D28A4642700066FCF /* CourseSchedule2.swift in Sources */,
 				D9451E972890BE3300538EF4 /* IsBipartite.swift in Sources */,
+				D9EC686628B9332B00066FCF /* happy.swift in Sources */,
 				D9284310287F3EC500EA2C41 /* BackTracking.swift in Sources */,
 				D93B375328888D050087FF32 /* Stack.swift in Sources */,
+				D9EC686C28B93D5400066FCF /* patternMatch.swift in Sources */,
 				D97201F62899913600F4CB23 /* FindTheTownJudge.swift in Sources */,
 				D9EC683428A8A48400066FCF /* GasStation.swift in Sources */,
 				D93B37592888D7E40087FF32 /* KMPAlgorithm.swift in Sources */,
@@ -406,10 +444,12 @@
 				D9DBE81328A195C200750F34 /* FloodFill.swift in Sources */,
 				D9EC684428AEB5C200066FCF /* MinimumCostFlow.swift in Sources */,
 				D9EC684C28B3335800066FCF /* BoatsToSavePeople.swift in Sources */,
+				D9EC685E28B8C0D700066FCF /* 2xNTiles.swift in Sources */,
 				D93B3751288862060087FF32 /* Bag.swift in Sources */,
 				D9EC684628AFFF4000066FCF /* MinimumTestFlowTest.swift in Sources */,
 				D951607F2885F9190028A834 /* QuickSort.swift in Sources */,
 				D9EC682728A2DED300066FCF /* Bridges.swift in Sources */,
+				D9EC686E28B93F2D00066FCF /* lcs.swift in Sources */,
 				D97201FA2899916D00F4CB23 /* FindCenterOfStarGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
