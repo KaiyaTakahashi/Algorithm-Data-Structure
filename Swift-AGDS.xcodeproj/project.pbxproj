@@ -24,7 +24,11 @@
 		D9451E972890BE3300538EF4 /* IsBipartite.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9451E962890BE3300538EF4 /* IsBipartite.swift */; };
 		D9451E9928920E2400538EF4 /* CirclePermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9451E9828920E2400538EF4 /* CirclePermutation.swift */; };
 		D9451E9B2892263000538EF4 /* RepeatingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9451E9A2892263000538EF4 /* RepeatingSequence.swift */; };
+		D9457AE028DBB2B10035FC9A /* JumpGame2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9457ADF28DBB2B10035FC9A /* JumpGame2.swift */; };
+		D9457AE228DBBC5E0035FC9A /* GenerateParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9457AE128DBBC5E0035FC9A /* GenerateParentheses.swift */; };
 		D951607F2885F9190028A834 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D951607E2885F9190028A834 /* QuickSort.swift */; };
+		D963E87C28CC0A3600A99761 /* LenghtOfLIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D963E87B28CC0A3600A99761 /* LenghtOfLIS.swift */; };
+		D963E88028CD515300A99761 /* PrettyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D963E87F28CD515300A99761 /* PrettyNumber.swift */; };
 		D97201F62899913600F4CB23 /* FindTheTownJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97201F52899913600F4CB23 /* FindTheTownJudge.swift */; };
 		D97201F82899914F00F4CB23 /* NumberOfProvinces.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97201F72899914F00F4CB23 /* NumberOfProvinces.swift */; };
 		D97201FA2899916D00F4CB23 /* FindCenterOfStarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97201F92899916D00F4CB23 /* FindCenterOfStarGraph.swift */; };
@@ -35,6 +39,9 @@
 		D9DBE81028A176F500750F34 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBE80F28A176F500750F34 /* Maze.swift */; };
 		D9DBE81328A195C200750F34 /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBE81228A195C200750F34 /* FloodFill.swift */; };
 		D9DBE81528A1B77400750F34 /* TomatoFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBE81428A1B77400750F34 /* TomatoFarm.swift */; };
+		D9E90B4D28DA5C4000C40B0C /* HouseRobber3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E90B4C28DA5C4000C40B0C /* HouseRobber3.swift */; };
+		D9E90B4F28DA874300C40B0C /* ArithmeticSlices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E90B4E28DA874300C40B0C /* ArithmeticSlices.swift */; };
+		D9E90B5128DBA89900C40B0C /* JumpGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E90B5028DBA89900C40B0C /* JumpGame.swift */; };
 		D9EC682728A2DED300066FCF /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682628A2DED300066FCF /* Bridges.swift */; };
 		D9EC682B28A4329C00066FCF /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682A28A4329C00066FCF /* CourseSchedule.swift */; };
 		D9EC682D28A4642700066FCF /* CourseSchedule2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EC682C28A4642700066FCF /* CourseSchedule2.swift */; };
@@ -98,7 +105,11 @@
 		D9451E962890BE3300538EF4 /* IsBipartite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsBipartite.swift; sourceTree = "<group>"; };
 		D9451E9828920E2400538EF4 /* CirclePermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePermutation.swift; sourceTree = "<group>"; };
 		D9451E9A2892263000538EF4 /* RepeatingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingSequence.swift; sourceTree = "<group>"; };
+		D9457ADF28DBB2B10035FC9A /* JumpGame2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGame2.swift; sourceTree = "<group>"; };
+		D9457AE128DBBC5E0035FC9A /* GenerateParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParentheses.swift; sourceTree = "<group>"; };
 		D951607E2885F9190028A834 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		D963E87B28CC0A3600A99761 /* LenghtOfLIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenghtOfLIS.swift; sourceTree = "<group>"; };
+		D963E87F28CD515300A99761 /* PrettyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyNumber.swift; sourceTree = "<group>"; };
 		D97201F52899913600F4CB23 /* FindTheTownJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheTownJudge.swift; sourceTree = "<group>"; };
 		D97201F72899914F00F4CB23 /* NumberOfProvinces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfProvinces.swift; sourceTree = "<group>"; };
 		D97201F92899916D00F4CB23 /* FindCenterOfStarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCenterOfStarGraph.swift; sourceTree = "<group>"; };
@@ -109,6 +120,9 @@
 		D9DBE80F28A176F500750F34 /* Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
 		D9DBE81228A195C200750F34 /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
 		D9DBE81428A1B77400750F34 /* TomatoFarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoFarm.swift; sourceTree = "<group>"; };
+		D9E90B4C28DA5C4000C40B0C /* HouseRobber3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber3.swift; sourceTree = "<group>"; };
+		D9E90B4E28DA874300C40B0C /* ArithmeticSlices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticSlices.swift; sourceTree = "<group>"; };
+		D9E90B5028DBA89900C40B0C /* JumpGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGame.swift; sourceTree = "<group>"; };
 		D9EC682628A2DED300066FCF /* Bridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridges.swift; sourceTree = "<group>"; };
 		D9EC682A28A4329C00066FCF /* CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule.swift; sourceTree = "<group>"; };
 		D9EC682C28A4642700066FCF /* CourseSchedule2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule2.swift; sourceTree = "<group>"; };
@@ -332,6 +346,13 @@
 			isa = PBXGroup;
 			children = (
 				D9EC685D28B8C0D700066FCF /* 2xNTiles.swift */,
+				D963E87B28CC0A3600A99761 /* LenghtOfLIS.swift */,
+				D963E87F28CD515300A99761 /* PrettyNumber.swift */,
+				D9E90B4C28DA5C4000C40B0C /* HouseRobber3.swift */,
+				D9E90B4E28DA874300C40B0C /* ArithmeticSlices.swift */,
+				D9E90B5028DBA89900C40B0C /* JumpGame.swift */,
+				D9457ADF28DBB2B10035FC9A /* JumpGame2.swift */,
+				D9457AE128DBBC5E0035FC9A /* GenerateParentheses.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -411,12 +432,14 @@
 				D9EC685328B577E300066FCF /* CheapestFlightWithinKStop.swift in Sources */,
 				D9EC685128B5491B00066FCF /* NetworkDelayTime.swift in Sources */,
 				D9EC683628A9A2C700066FCF /* PartitionLabels.swift in Sources */,
+				D9E90B5128DBA89900C40B0C /* JumpGame.swift in Sources */,
 				D9DBE81028A176F500750F34 /* Maze.swift in Sources */,
 				D928430E287F2F6800EA2C41 /* ExhaustiveSearch.swift in Sources */,
 				D9EC683028A8284500066FCF /* TwoCityScheduling.swift in Sources */,
 				D9EC683B28AC3D8400066FCF /* UnionFind.swift in Sources */,
 				D93E115D28A04F1D004E3582 /* AllPathsSourceTarget.swift in Sources */,
 				D9284315287F4B0A00EA2C41 /* QueensSolver.swift in Sources */,
+				D9E90B4F28DA874300C40B0C /* ArithmeticSlices.swift in Sources */,
 				D93B375528888D0D0087FF32 /* Queue.swift in Sources */,
 				D9720200289C370B00F4CB23 /* LowestCommonAncestor.swift in Sources */,
 				D9EC686828B936E600066FCF /* corona.swift in Sources */,
@@ -425,6 +448,7 @@
 				D9284313287F4AFF00EA2C41 /* Board.swift in Sources */,
 				D9EC684828B1680400066FCF /* MinCostConnectedAllPoints.swift in Sources */,
 				D92842EE287C9D9C00EA2C41 /* Recursion.swift in Sources */,
+				D9457AE228DBBC5E0035FC9A /* GenerateParentheses.swift in Sources */,
 				D9EC683228A86FE700066FCF /* MeetingRooms.swift in Sources */,
 				D9EC683F28AD795400066FCF /* LongestConsecutiveSequence.swift in Sources */,
 				D9EC682D28A4642700066FCF /* CourseSchedule2.swift in Sources */,
@@ -433,11 +457,15 @@
 				D9284310287F3EC500EA2C41 /* BackTracking.swift in Sources */,
 				D93B375328888D050087FF32 /* Stack.swift in Sources */,
 				D9EC686C28B93D5400066FCF /* patternMatch.swift in Sources */,
+				D963E88028CD515300A99761 /* PrettyNumber.swift in Sources */,
+				D9E90B4D28DA5C4000C40B0C /* HouseRobber3.swift in Sources */,
 				D97201F62899913600F4CB23 /* FindTheTownJudge.swift in Sources */,
 				D9EC683428A8A48400066FCF /* GasStation.swift in Sources */,
+				D963E87C28CC0A3600A99761 /* LenghtOfLIS.swift in Sources */,
 				D93B37592888D7E40087FF32 /* KMPAlgorithm.swift in Sources */,
 				D9DBE81528A1B77400750F34 /* TomatoFarm.swift in Sources */,
 				D9451E9928920E2400538EF4 /* CirclePermutation.swift in Sources */,
+				D9457AE028DBB2B10035FC9A /* JumpGame2.swift in Sources */,
 				D9EC685728B754CD00066FCF /* PathWithMinimumEffort.swift in Sources */,
 				D9EC685528B6CCC200066FCF /* PathWithMaximumProbability.swift in Sources */,
 				D92842E6287C9D6B00EA2C41 /* main.swift in Sources */,
