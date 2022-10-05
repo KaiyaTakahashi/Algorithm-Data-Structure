@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D916FFCF28EAB1C600DC0522 /* NumberOfWaysToArriveAtDestiantion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916FFCE28EAB1C600DC0522 /* NumberOfWaysToArriveAtDestiantion.swift */; };
+		D916FFD228EB6FCA00DC0522 /* IndexPriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916FFD128EB6FCA00DC0522 /* IndexPriorityQueue.swift */; };
 		D92842E6287C9D6B00EA2C41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92842E5287C9D6B00EA2C41 /* main.swift */; };
 		D92842EE287C9D9C00EA2C41 /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92842ED287C9D9C00EA2C41 /* Recursion.swift */; };
 		D92842F0287CA11700EA2C41 /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92842EF287CA11700EA2C41 /* String+DPStringTool.swift */; };
@@ -26,7 +28,10 @@
 		D9451E9B2892263000538EF4 /* RepeatingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9451E9A2892263000538EF4 /* RepeatingSequence.swift */; };
 		D9457AE028DBB2B10035FC9A /* JumpGame2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9457ADF28DBB2B10035FC9A /* JumpGame2.swift */; };
 		D9457AE228DBBC5E0035FC9A /* GenerateParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9457AE128DBBC5E0035FC9A /* GenerateParentheses.swift */; };
+		D9457AE428DBC6270035FC9A /* UniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9457AE328DBC6270035FC9A /* UniquePaths.swift */; };
+		D9457AE628DD430F0035FC9A /* TrappingRainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9457AE528DD430F0035FC9A /* TrappingRainWater.swift */; };
 		D951607F2885F9190028A834 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D951607E2885F9190028A834 /* QuickSort.swift */; };
+		D959E6E528E3C22500A96F0A /* FindFirstAndLastPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959E6E428E3C22500A96F0A /* FindFirstAndLastPosition.swift */; };
 		D963E87C28CC0A3600A99761 /* LenghtOfLIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D963E87B28CC0A3600A99761 /* LenghtOfLIS.swift */; };
 		D963E88028CD515300A99761 /* PrettyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D963E87F28CD515300A99761 /* PrettyNumber.swift */; };
 		D97201F62899913600F4CB23 /* FindTheTownJudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97201F52899913600F4CB23 /* FindTheTownJudge.swift */; };
@@ -86,6 +91,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D916FFCE28EAB1C600DC0522 /* NumberOfWaysToArriveAtDestiantion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfWaysToArriveAtDestiantion.swift; sourceTree = "<group>"; };
+		D916FFD128EB6FCA00DC0522 /* IndexPriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPriorityQueue.swift; sourceTree = "<group>"; };
 		D92842E2287C9D6B00EA2C41 /* Swift-AGDS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-AGDS"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92842E5287C9D6B00EA2C41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D92842ED287C9D9C00EA2C41 /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
@@ -107,7 +114,10 @@
 		D9451E9A2892263000538EF4 /* RepeatingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingSequence.swift; sourceTree = "<group>"; };
 		D9457ADF28DBB2B10035FC9A /* JumpGame2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGame2.swift; sourceTree = "<group>"; };
 		D9457AE128DBBC5E0035FC9A /* GenerateParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParentheses.swift; sourceTree = "<group>"; };
+		D9457AE328DBC6270035FC9A /* UniquePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniquePaths.swift; sourceTree = "<group>"; };
+		D9457AE528DD430F0035FC9A /* TrappingRainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrappingRainWater.swift; sourceTree = "<group>"; };
 		D951607E2885F9190028A834 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		D959E6E428E3C22500A96F0A /* FindFirstAndLastPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFirstAndLastPosition.swift; sourceTree = "<group>"; };
 		D963E87B28CC0A3600A99761 /* LenghtOfLIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenghtOfLIS.swift; sourceTree = "<group>"; };
 		D963E87F28CD515300A99761 /* PrettyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyNumber.swift; sourceTree = "<group>"; };
 		D97201F52899913600F4CB23 /* FindTheTownJudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTheTownJudge.swift; sourceTree = "<group>"; };
@@ -165,6 +175,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D916FFD028EB6A7F00DC0522 /* LeetCode50 */ = {
+			isa = PBXGroup;
+			children = (
+				D9E90B5028DBA89900C40B0C /* JumpGame.swift */,
+				D9457ADF28DBB2B10035FC9A /* JumpGame2.swift */,
+				D9457AE128DBBC5E0035FC9A /* GenerateParentheses.swift */,
+				D9457AE328DBC6270035FC9A /* UniquePaths.swift */,
+				D9457AE528DD430F0035FC9A /* TrappingRainWater.swift */,
+				D959E6E428E3C22500A96F0A /* FindFirstAndLastPosition.swift */,
+				D916FFCE28EAB1C600DC0522 /* NumberOfWaysToArriveAtDestiantion.swift */,
+			);
+			path = LeetCode50;
+			sourceTree = "<group>";
+		};
 		D92842D9287C9D6B00EA2C41 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +208,7 @@
 		D92842E4287C9D6B00EA2C41 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				D916FFD028EB6A7F00DC0522 /* LeetCode50 */,
 				D9EC685C28B8C0B400066FCF /* DynamicProgramming */,
 				D9EC684D28B3F7A500066FCF /* ShortestPath */,
 				D9EC684228AEB5A500066FCF /* MinimumSpanningTree */,
@@ -239,6 +264,7 @@
 				D93B3750288862060087FF32 /* Bag.swift */,
 				D93B375228888D050087FF32 /* Stack.swift */,
 				D93B375428888D0D0087FF32 /* Queue.swift */,
+				D916FFD128EB6FCA00DC0522 /* IndexPriorityQueue.swift */,
 			);
 			path = DataStructures1;
 			sourceTree = "<group>";
@@ -350,9 +376,6 @@
 				D963E87F28CD515300A99761 /* PrettyNumber.swift */,
 				D9E90B4C28DA5C4000C40B0C /* HouseRobber3.swift */,
 				D9E90B4E28DA874300C40B0C /* ArithmeticSlices.swift */,
-				D9E90B5028DBA89900C40B0C /* JumpGame.swift */,
-				D9457ADF28DBB2B10035FC9A /* JumpGame2.swift */,
-				D9457AE128DBBC5E0035FC9A /* GenerateParentheses.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -439,6 +462,7 @@
 				D9EC683B28AC3D8400066FCF /* UnionFind.swift in Sources */,
 				D93E115D28A04F1D004E3582 /* AllPathsSourceTarget.swift in Sources */,
 				D9284315287F4B0A00EA2C41 /* QueensSolver.swift in Sources */,
+				D9457AE628DD430F0035FC9A /* TrappingRainWater.swift in Sources */,
 				D9E90B4F28DA874300C40B0C /* ArithmeticSlices.swift in Sources */,
 				D93B375528888D0D0087FF32 /* Queue.swift in Sources */,
 				D9720200289C370B00F4CB23 /* LowestCommonAncestor.swift in Sources */,
@@ -452,14 +476,17 @@
 				D9EC683228A86FE700066FCF /* MeetingRooms.swift in Sources */,
 				D9EC683F28AD795400066FCF /* LongestConsecutiveSequence.swift in Sources */,
 				D9EC682D28A4642700066FCF /* CourseSchedule2.swift in Sources */,
+				D9457AE428DBC6270035FC9A /* UniquePaths.swift in Sources */,
 				D9451E972890BE3300538EF4 /* IsBipartite.swift in Sources */,
 				D9EC686628B9332B00066FCF /* happy.swift in Sources */,
 				D9284310287F3EC500EA2C41 /* BackTracking.swift in Sources */,
 				D93B375328888D050087FF32 /* Stack.swift in Sources */,
+				D916FFCF28EAB1C600DC0522 /* NumberOfWaysToArriveAtDestiantion.swift in Sources */,
 				D9EC686C28B93D5400066FCF /* patternMatch.swift in Sources */,
 				D963E88028CD515300A99761 /* PrettyNumber.swift in Sources */,
 				D9E90B4D28DA5C4000C40B0C /* HouseRobber3.swift in Sources */,
 				D97201F62899913600F4CB23 /* FindTheTownJudge.swift in Sources */,
+				D916FFD228EB6FCA00DC0522 /* IndexPriorityQueue.swift in Sources */,
 				D9EC683428A8A48400066FCF /* GasStation.swift in Sources */,
 				D963E87C28CC0A3600A99761 /* LenghtOfLIS.swift in Sources */,
 				D93B37592888D7E40087FF32 /* KMPAlgorithm.swift in Sources */,
@@ -474,6 +501,7 @@
 				D9EC684C28B3335800066FCF /* BoatsToSavePeople.swift in Sources */,
 				D9EC685E28B8C0D700066FCF /* 2xNTiles.swift in Sources */,
 				D93B3751288862060087FF32 /* Bag.swift in Sources */,
+				D959E6E528E3C22500A96F0A /* FindFirstAndLastPosition.swift in Sources */,
 				D9EC684628AFFF4000066FCF /* MinimumTestFlowTest.swift in Sources */,
 				D951607F2885F9190028A834 /* QuickSort.swift in Sources */,
 				D9EC682728A2DED300066FCF /* Bridges.swift in Sources */,
