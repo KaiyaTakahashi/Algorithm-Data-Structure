@@ -38,15 +38,25 @@ import Foundation
 //}
 
 func trap(_ height: [Int]) -> Int {
-    var memoise = [Int](repeating: 0, count: height.count)
-    var pivot = 0
-    var i = 0
-    while i != height.count {
-        if height[i] > height[i + 1] {
-            pivot = i
-        } else {
-            
+    var map = height
+    var water = 0
+    for _ in 0..<height.max()! {
+        var start = false
+        var count = 0
+        for i in 0..<height.count {
+            if map[i] != 0 && start == false{
+                start = true
+            } else if map[i] != 0 && start == true {
+                water += count
+                count = 0
+            }
+            if start && map[i] == 0 {
+                count += 1
+            }
+            if map[i] != 0 {
+                map[i] -= 1
+            }
         }
     }
-    return 0
+    return water
 }

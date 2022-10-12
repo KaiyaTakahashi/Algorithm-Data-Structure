@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		D916FFCF28EAB1C600DC0522 /* NumberOfWaysToArriveAtDestiantion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916FFCE28EAB1C600DC0522 /* NumberOfWaysToArriveAtDestiantion.swift */; };
 		D916FFD228EB6FCA00DC0522 /* IndexPriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916FFD128EB6FCA00DC0522 /* IndexPriorityQueue.swift */; };
+		D916FFD428EE288400DC0522 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916FFD328EE288400DC0522 /* ThreeSum.swift */; };
+		D916FFD628EF82F300DC0522 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916FFD528EF82F300DC0522 /* TwoSum.swift */; };
+		D916FFD828EF9ED400DC0522 /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916FFD728EF9ED400DC0522 /* BestTimeToBuyAndSellStock.swift */; };
+		D916FFDA28F228DF00DC0522 /* LongestIncreasingPathInAMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916FFD928F228DF00DC0522 /* LongestIncreasingPathInAMatrix.swift */; };
 		D92842E6287C9D6B00EA2C41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92842E5287C9D6B00EA2C41 /* main.swift */; };
 		D92842EE287C9D9C00EA2C41 /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92842ED287C9D9C00EA2C41 /* Recursion.swift */; };
 		D92842F0287CA11700EA2C41 /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92842EF287CA11700EA2C41 /* String+DPStringTool.swift */; };
@@ -93,6 +97,10 @@
 /* Begin PBXFileReference section */
 		D916FFCE28EAB1C600DC0522 /* NumberOfWaysToArriveAtDestiantion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfWaysToArriveAtDestiantion.swift; sourceTree = "<group>"; };
 		D916FFD128EB6FCA00DC0522 /* IndexPriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPriorityQueue.swift; sourceTree = "<group>"; };
+		D916FFD328EE288400DC0522 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
+		D916FFD528EF82F300DC0522 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		D916FFD728EF9ED400DC0522 /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
+		D916FFD928F228DF00DC0522 /* LongestIncreasingPathInAMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestIncreasingPathInAMatrix.swift; sourceTree = "<group>"; };
 		D92842E2287C9D6B00EA2C41 /* Swift-AGDS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-AGDS"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92842E5287C9D6B00EA2C41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D92842ED287C9D9C00EA2C41 /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
@@ -185,6 +193,12 @@
 				D9457AE528DD430F0035FC9A /* TrappingRainWater.swift */,
 				D959E6E428E3C22500A96F0A /* FindFirstAndLastPosition.swift */,
 				D916FFCE28EAB1C600DC0522 /* NumberOfWaysToArriveAtDestiantion.swift */,
+				D916FFD328EE288400DC0522 /* ThreeSum.swift */,
+				D916FFD528EF82F300DC0522 /* TwoSum.swift */,
+				D9E90B4E28DA874300C40B0C /* ArithmeticSlices.swift */,
+				D9E90B4C28DA5C4000C40B0C /* HouseRobber3.swift */,
+				D916FFD728EF9ED400DC0522 /* BestTimeToBuyAndSellStock.swift */,
+				D916FFD928F228DF00DC0522 /* LongestIncreasingPathInAMatrix.swift */,
 			);
 			path = LeetCode50;
 			sourceTree = "<group>";
@@ -374,8 +388,6 @@
 				D9EC685D28B8C0D700066FCF /* 2xNTiles.swift */,
 				D963E87B28CC0A3600A99761 /* LenghtOfLIS.swift */,
 				D963E87F28CD515300A99761 /* PrettyNumber.swift */,
-				D9E90B4C28DA5C4000C40B0C /* HouseRobber3.swift */,
-				D9E90B4E28DA874300C40B0C /* ArithmeticSlices.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -450,6 +462,8 @@
 				D9EC687028BAB94F00066FCF /* FindTheCity.swift in Sources */,
 				D92842F0287CA11700EA2C41 /* String+DPStringTool.swift in Sources */,
 				D9EC686428B92C7E00066FCF /* lps.swift in Sources */,
+				D916FFDA28F228DF00DC0522 /* LongestIncreasingPathInAMatrix.swift in Sources */,
+				D916FFD628EF82F300DC0522 /* TwoSum.swift in Sources */,
 				D9EC682B28A4329C00066FCF /* CourseSchedule.swift in Sources */,
 				D99080B22896EB290074F7C5 /* Diameter.swift in Sources */,
 				D9EC685328B577E300066FCF /* CheapestFlightWithinKStop.swift in Sources */,
@@ -486,6 +500,7 @@
 				D963E88028CD515300A99761 /* PrettyNumber.swift in Sources */,
 				D9E90B4D28DA5C4000C40B0C /* HouseRobber3.swift in Sources */,
 				D97201F62899913600F4CB23 /* FindTheTownJudge.swift in Sources */,
+				D916FFD828EF9ED400DC0522 /* BestTimeToBuyAndSellStock.swift in Sources */,
 				D916FFD228EB6FCA00DC0522 /* IndexPriorityQueue.swift in Sources */,
 				D9EC683428A8A48400066FCF /* GasStation.swift in Sources */,
 				D963E87C28CC0A3600A99761 /* LenghtOfLIS.swift in Sources */,
@@ -500,6 +515,7 @@
 				D9EC684428AEB5C200066FCF /* MinimumCostFlow.swift in Sources */,
 				D9EC684C28B3335800066FCF /* BoatsToSavePeople.swift in Sources */,
 				D9EC685E28B8C0D700066FCF /* 2xNTiles.swift in Sources */,
+				D916FFD428EE288400DC0522 /* ThreeSum.swift in Sources */,
 				D93B3751288862060087FF32 /* Bag.swift in Sources */,
 				D959E6E528E3C22500A96F0A /* FindFirstAndLastPosition.swift in Sources */,
 				D9EC684628AFFF4000066FCF /* MinimumTestFlowTest.swift in Sources */,
