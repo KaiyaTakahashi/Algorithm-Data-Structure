@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(longestIncreasingPath([[9,9,4],[6,6,8],[2,1,1]]))
+print(maxProduct([2,3,-2,4]))

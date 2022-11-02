@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Node {
+fileprivate struct Node {
     let r: Int
     let c: Int
 }

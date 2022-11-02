@@ -13,6 +13,7 @@
 		D916FFD628EF82F300DC0522 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916FFD528EF82F300DC0522 /* TwoSum.swift */; };
 		D916FFD828EF9ED400DC0522 /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916FFD728EF9ED400DC0522 /* BestTimeToBuyAndSellStock.swift */; };
 		D916FFDA28F228DF00DC0522 /* LongestIncreasingPathInAMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916FFD928F228DF00DC0522 /* LongestIncreasingPathInAMatrix.swift */; };
+		D916FFDC28F76EA800DC0522 /* MinimumHeightTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = D916FFDB28F76EA800DC0522 /* MinimumHeightTrees.swift */; };
 		D92842E6287C9D6B00EA2C41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92842E5287C9D6B00EA2C41 /* main.swift */; };
 		D92842EE287C9D9C00EA2C41 /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92842ED287C9D9C00EA2C41 /* Recursion.swift */; };
 		D92842F0287CA11700EA2C41 /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92842EF287CA11700EA2C41 /* String+DPStringTool.swift */; };
@@ -45,6 +46,9 @@
 		D9720202289C506500F4CB23 /* SushiRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9720201289C506500F4CB23 /* SushiRestaurant.swift */; };
 		D99080B028945E8C0074F7C5 /* myParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99080AF28945E8C0074F7C5 /* myParent.swift */; };
 		D99080B22896EB290074F7C5 /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99080B12896EB290074F7C5 /* Diameter.swift */; };
+		D9AF94E52908EF1B00AD8AA8 /* TopKFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF94E42908EF1B00AD8AA8 /* TopKFrequentElements.swift */; };
+		D9AF94E829108C9000AD8AA8 /* ProductOfArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF94E729108C9000AD8AA8 /* ProductOfArrayExceptSelf.swift */; };
+		D9AF94EA2911AB1600AD8AA8 /* MaximumProductSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF94E92911AB1600AD8AA8 /* MaximumProductSubarray.swift */; };
 		D9DBE81028A176F500750F34 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBE80F28A176F500750F34 /* Maze.swift */; };
 		D9DBE81328A195C200750F34 /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBE81228A195C200750F34 /* FloodFill.swift */; };
 		D9DBE81528A1B77400750F34 /* TomatoFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DBE81428A1B77400750F34 /* TomatoFarm.swift */; };
@@ -101,6 +105,7 @@
 		D916FFD528EF82F300DC0522 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		D916FFD728EF9ED400DC0522 /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
 		D916FFD928F228DF00DC0522 /* LongestIncreasingPathInAMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestIncreasingPathInAMatrix.swift; sourceTree = "<group>"; };
+		D916FFDB28F76EA800DC0522 /* MinimumHeightTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumHeightTrees.swift; sourceTree = "<group>"; };
 		D92842E2287C9D6B00EA2C41 /* Swift-AGDS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-AGDS"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92842E5287C9D6B00EA2C41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D92842ED287C9D9C00EA2C41 /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
@@ -135,6 +140,9 @@
 		D9720201289C506500F4CB23 /* SushiRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiRestaurant.swift; sourceTree = "<group>"; };
 		D99080AF28945E8C0074F7C5 /* myParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myParent.swift; sourceTree = "<group>"; };
 		D99080B12896EB290074F7C5 /* Diameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diameter.swift; sourceTree = "<group>"; };
+		D9AF94E42908EF1B00AD8AA8 /* TopKFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKFrequentElements.swift; sourceTree = "<group>"; };
+		D9AF94E729108C9000AD8AA8 /* ProductOfArrayExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelf.swift; sourceTree = "<group>"; };
+		D9AF94E92911AB1600AD8AA8 /* MaximumProductSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductSubarray.swift; sourceTree = "<group>"; };
 		D9DBE80F28A176F500750F34 /* Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
 		D9DBE81228A195C200750F34 /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
 		D9DBE81428A1B77400750F34 /* TomatoFarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoFarm.swift; sourceTree = "<group>"; };
@@ -186,6 +194,8 @@
 		D916FFD028EB6A7F00DC0522 /* LeetCode50 */ = {
 			isa = PBXGroup;
 			children = (
+				D9AF94E62909C9C000AD8AA8 /* BucketSort */,
+				D916FFDD28F76EB100DC0522 /* TopologicalSort */,
 				D9E90B5028DBA89900C40B0C /* JumpGame.swift */,
 				D9457ADF28DBB2B10035FC9A /* JumpGame2.swift */,
 				D9457AE128DBBC5E0035FC9A /* GenerateParentheses.swift */,
@@ -198,9 +208,19 @@
 				D9E90B4E28DA874300C40B0C /* ArithmeticSlices.swift */,
 				D9E90B4C28DA5C4000C40B0C /* HouseRobber3.swift */,
 				D916FFD728EF9ED400DC0522 /* BestTimeToBuyAndSellStock.swift */,
-				D916FFD928F228DF00DC0522 /* LongestIncreasingPathInAMatrix.swift */,
+				D9AF94E729108C9000AD8AA8 /* ProductOfArrayExceptSelf.swift */,
+				D9AF94E92911AB1600AD8AA8 /* MaximumProductSubarray.swift */,
 			);
 			path = LeetCode50;
+			sourceTree = "<group>";
+		};
+		D916FFDD28F76EB100DC0522 /* TopologicalSort */ = {
+			isa = PBXGroup;
+			children = (
+				D916FFD928F228DF00DC0522 /* LongestIncreasingPathInAMatrix.swift */,
+				D916FFDB28F76EA800DC0522 /* MinimumHeightTrees.swift */,
+			);
+			path = TopologicalSort;
 			sourceTree = "<group>";
 		};
 		D92842D9287C9D6B00EA2C41 = {
@@ -314,6 +334,14 @@
 				D93E115C28A04F1D004E3582 /* AllPathsSourceTarget.swift */,
 			);
 			path = Graph;
+			sourceTree = "<group>";
+		};
+		D9AF94E62909C9C000AD8AA8 /* BucketSort */ = {
+			isa = PBXGroup;
+			children = (
+				D9AF94E42908EF1B00AD8AA8 /* TopKFrequentElements.swift */,
+			);
+			path = BucketSort;
 			sourceTree = "<group>";
 		};
 		D9DBE81128A195AC00750F34 /* FloodFill */ = {
@@ -483,6 +511,7 @@
 				D9EC686828B936E600066FCF /* corona.swift in Sources */,
 				D9EC686A28B939AB00066FCF /* duplicate.swift in Sources */,
 				D9EC684A28B3024600066FCF /* MaxIncreaseToKeepCitySkyline.swift in Sources */,
+				D9AF94E829108C9000AD8AA8 /* ProductOfArrayExceptSelf.swift in Sources */,
 				D9284313287F4AFF00EA2C41 /* Board.swift in Sources */,
 				D9EC684828B1680400066FCF /* MinCostConnectedAllPoints.swift in Sources */,
 				D92842EE287C9D9C00EA2C41 /* Recursion.swift in Sources */,
@@ -497,6 +526,7 @@
 				D93B375328888D050087FF32 /* Stack.swift in Sources */,
 				D916FFCF28EAB1C600DC0522 /* NumberOfWaysToArriveAtDestiantion.swift in Sources */,
 				D9EC686C28B93D5400066FCF /* patternMatch.swift in Sources */,
+				D916FFDC28F76EA800DC0522 /* MinimumHeightTrees.swift in Sources */,
 				D963E88028CD515300A99761 /* PrettyNumber.swift in Sources */,
 				D9E90B4D28DA5C4000C40B0C /* HouseRobber3.swift in Sources */,
 				D97201F62899913600F4CB23 /* FindTheTownJudge.swift in Sources */,
@@ -505,6 +535,7 @@
 				D9EC683428A8A48400066FCF /* GasStation.swift in Sources */,
 				D963E87C28CC0A3600A99761 /* LenghtOfLIS.swift in Sources */,
 				D93B37592888D7E40087FF32 /* KMPAlgorithm.swift in Sources */,
+				D9AF94EA2911AB1600AD8AA8 /* MaximumProductSubarray.swift in Sources */,
 				D9DBE81528A1B77400750F34 /* TomatoFarm.swift in Sources */,
 				D9451E9928920E2400538EF4 /* CirclePermutation.swift in Sources */,
 				D9457AE028DBB2B10035FC9A /* JumpGame2.swift in Sources */,
@@ -519,6 +550,7 @@
 				D93B3751288862060087FF32 /* Bag.swift in Sources */,
 				D959E6E528E3C22500A96F0A /* FindFirstAndLastPosition.swift in Sources */,
 				D9EC684628AFFF4000066FCF /* MinimumTestFlowTest.swift in Sources */,
+				D9AF94E52908EF1B00AD8AA8 /* TopKFrequentElements.swift in Sources */,
 				D951607F2885F9190028A834 /* QuickSort.swift in Sources */,
 				D9EC682728A2DED300066FCF /* Bridges.swift in Sources */,
 				D9EC686E28B93F2D00066FCF /* lcs.swift in Sources */,
