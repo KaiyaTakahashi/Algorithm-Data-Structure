@@ -44,6 +44,8 @@
 		D97201FA2899916D00F4CB23 /* FindCenterOfStarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97201F92899916D00F4CB23 /* FindCenterOfStarGraph.swift */; };
 		D9720200289C370B00F4CB23 /* LowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97201FF289C370B00F4CB23 /* LowestCommonAncestor.swift */; };
 		D9720202289C506500F4CB23 /* SushiRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9720201289C506500F4CB23 /* SushiRestaurant.swift */; };
+		D98B95BF29120222008983FD /* WordBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B95BE29120222008983FD /* WordBreak.swift */; };
+		D98B95C129230973008983FD /* SlidingWindowMaximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B95C029230973008983FD /* SlidingWindowMaximum.swift */; };
 		D99080B028945E8C0074F7C5 /* myParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99080AF28945E8C0074F7C5 /* myParent.swift */; };
 		D99080B22896EB290074F7C5 /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99080B12896EB290074F7C5 /* Diameter.swift */; };
 		D9AF94E52908EF1B00AD8AA8 /* TopKFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF94E42908EF1B00AD8AA8 /* TopKFrequentElements.swift */; };
@@ -138,6 +140,8 @@
 		D97201F92899916D00F4CB23 /* FindCenterOfStarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCenterOfStarGraph.swift; sourceTree = "<group>"; };
 		D97201FF289C370B00F4CB23 /* LowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestor.swift; sourceTree = "<group>"; };
 		D9720201289C506500F4CB23 /* SushiRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiRestaurant.swift; sourceTree = "<group>"; };
+		D98B95BE29120222008983FD /* WordBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBreak.swift; sourceTree = "<group>"; };
+		D98B95C029230973008983FD /* SlidingWindowMaximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingWindowMaximum.swift; sourceTree = "<group>"; };
 		D99080AF28945E8C0074F7C5 /* myParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myParent.swift; sourceTree = "<group>"; };
 		D99080B12896EB290074F7C5 /* Diameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diameter.swift; sourceTree = "<group>"; };
 		D9AF94E42908EF1B00AD8AA8 /* TopKFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKFrequentElements.swift; sourceTree = "<group>"; };
@@ -194,6 +198,8 @@
 		D916FFD028EB6A7F00DC0522 /* LeetCode50 */ = {
 			isa = PBXGroup;
 			children = (
+				D98B95C029230973008983FD /* SlidingWindowMaximum.swift */,
+				D98B95BD2911FEC7008983FD /* DynamicProgramming */,
 				D9AF94E62909C9C000AD8AA8 /* BucketSort */,
 				D916FFDD28F76EB100DC0522 /* TopologicalSort */,
 				D9E90B5028DBA89900C40B0C /* JumpGame.swift */,
@@ -209,7 +215,7 @@
 				D9E90B4C28DA5C4000C40B0C /* HouseRobber3.swift */,
 				D916FFD728EF9ED400DC0522 /* BestTimeToBuyAndSellStock.swift */,
 				D9AF94E729108C9000AD8AA8 /* ProductOfArrayExceptSelf.swift */,
-				D9AF94E92911AB1600AD8AA8 /* MaximumProductSubarray.swift */,
+				D98B95BE29120222008983FD /* WordBreak.swift */,
 			);
 			path = LeetCode50;
 			sourceTree = "<group>";
@@ -317,6 +323,14 @@
 				D951607E2885F9190028A834 /* QuickSort.swift */,
 			);
 			path = SearchingSorting;
+			sourceTree = "<group>";
+		};
+		D98B95BD2911FEC7008983FD /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				D9AF94E92911AB1600AD8AA8 /* MaximumProductSubarray.swift */,
+			);
+			path = DynamicProgramming;
 			sourceTree = "<group>";
 		};
 		D99080AE28945B4E0074F7C5 /* Graph */ = {
@@ -495,6 +509,7 @@
 				D9EC682B28A4329C00066FCF /* CourseSchedule.swift in Sources */,
 				D99080B22896EB290074F7C5 /* Diameter.swift in Sources */,
 				D9EC685328B577E300066FCF /* CheapestFlightWithinKStop.swift in Sources */,
+				D98B95C129230973008983FD /* SlidingWindowMaximum.swift in Sources */,
 				D9EC685128B5491B00066FCF /* NetworkDelayTime.swift in Sources */,
 				D9EC683628A9A2C700066FCF /* PartitionLabels.swift in Sources */,
 				D9E90B5128DBA89900C40B0C /* JumpGame.swift in Sources */,
@@ -549,6 +564,7 @@
 				D916FFD428EE288400DC0522 /* ThreeSum.swift in Sources */,
 				D93B3751288862060087FF32 /* Bag.swift in Sources */,
 				D959E6E528E3C22500A96F0A /* FindFirstAndLastPosition.swift in Sources */,
+				D98B95BF29120222008983FD /* WordBreak.swift in Sources */,
 				D9EC684628AFFF4000066FCF /* MinimumTestFlowTest.swift in Sources */,
 				D9AF94E52908EF1B00AD8AA8 /* TopKFrequentElements.swift in Sources */,
 				D951607F2885F9190028A834 /* QuickSort.swift in Sources */,
