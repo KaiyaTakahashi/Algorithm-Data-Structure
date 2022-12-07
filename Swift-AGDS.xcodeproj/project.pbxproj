@@ -46,6 +46,7 @@
 		D9720202289C506500F4CB23 /* SushiRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9720201289C506500F4CB23 /* SushiRestaurant.swift */; };
 		D98B95BF29120222008983FD /* WordBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B95BE29120222008983FD /* WordBreak.swift */; };
 		D98B95C129230973008983FD /* SlidingWindowMaximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B95C029230973008983FD /* SlidingWindowMaximum.swift */; };
+		D98B95C329401BB3008983FD /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B95C229401BB3008983FD /* Subsets.swift */; };
 		D99080B028945E8C0074F7C5 /* myParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99080AF28945E8C0074F7C5 /* myParent.swift */; };
 		D99080B22896EB290074F7C5 /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99080B12896EB290074F7C5 /* Diameter.swift */; };
 		D9AF94E52908EF1B00AD8AA8 /* TopKFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF94E42908EF1B00AD8AA8 /* TopKFrequentElements.swift */; };
@@ -142,6 +143,7 @@
 		D9720201289C506500F4CB23 /* SushiRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiRestaurant.swift; sourceTree = "<group>"; };
 		D98B95BE29120222008983FD /* WordBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBreak.swift; sourceTree = "<group>"; };
 		D98B95C029230973008983FD /* SlidingWindowMaximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingWindowMaximum.swift; sourceTree = "<group>"; };
+		D98B95C229401BB3008983FD /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
 		D99080AF28945E8C0074F7C5 /* myParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myParent.swift; sourceTree = "<group>"; };
 		D99080B12896EB290074F7C5 /* Diameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diameter.swift; sourceTree = "<group>"; };
 		D9AF94E42908EF1B00AD8AA8 /* TopKFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKFrequentElements.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 				D916FFD728EF9ED400DC0522 /* BestTimeToBuyAndSellStock.swift */,
 				D9AF94E729108C9000AD8AA8 /* ProductOfArrayExceptSelf.swift */,
 				D98B95BE29120222008983FD /* WordBreak.swift */,
+				D98B95C229401BB3008983FD /* Subsets.swift */,
 			);
 			path = LeetCode50;
 			sourceTree = "<group>";
@@ -493,6 +496,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9451E9B2892263000538EF4 /* RepeatingSequence.swift in Sources */,
+				D98B95C329401BB3008983FD /* Subsets.swift in Sources */,
 				D99080B028945E8C0074F7C5 /* myParent.swift in Sources */,
 				D9451E91289053CF00538EF4 /* DFS.swift in Sources */,
 				D9451E9328905F2600538EF4 /* ConnectedComponents.swift in Sources */,

@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(maxSlidingWindow([1,3,-1,-3,5,3,6,7], 3))
+print(subsets([1,2,3]))
