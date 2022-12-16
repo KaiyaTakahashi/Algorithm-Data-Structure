@@ -6,5 +6,4 @@
 //
 
 import Foundation
-
-print(subsets([1,2,3]))
+print(reverseBits(00000010100101000001111010011100))

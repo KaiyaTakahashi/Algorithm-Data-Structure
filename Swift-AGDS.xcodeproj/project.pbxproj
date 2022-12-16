@@ -141,6 +141,7 @@
 		D97201F92899916D00F4CB23 /* FindCenterOfStarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCenterOfStarGraph.swift; sourceTree = "<group>"; };
 		D97201FF289C370B00F4CB23 /* LowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestor.swift; sourceTree = "<group>"; };
 		D9720201289C506500F4CB23 /* SushiRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiRestaurant.swift; sourceTree = "<group>"; };
+		D972D110294CEC7B005FC73B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D98B95BE29120222008983FD /* WordBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBreak.swift; sourceTree = "<group>"; };
 		D98B95C029230973008983FD /* SlidingWindowMaximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingWindowMaximum.swift; sourceTree = "<group>"; };
 		D98B95C229401BB3008983FD /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
@@ -219,6 +220,7 @@
 				D9AF94E729108C9000AD8AA8 /* ProductOfArrayExceptSelf.swift */,
 				D98B95BE29120222008983FD /* WordBreak.swift */,
 				D98B95C229401BB3008983FD /* Subsets.swift */,
+				D972D110294CEC7B005FC73B /* README.md */,
 			);
 			path = LeetCode50;
 			sourceTree = "<group>";
